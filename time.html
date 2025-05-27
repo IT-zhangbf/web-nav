@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>Time</title>
+<style>
+    /* 时钟的样式 */
+    canvas {
+        display: block;
+        margin: 100px auto;
+        border-radius: 20px;
+        background: #ccc;
+        margin-top: 15%;
+    }
+</style>
+</head>
+
+<body>
+    <!-- 画板 -->
+    <div class="clock">
+        <canvas width="400px" height="400px"></canvas>
+    </div>
+</body>
+
+<script>
+    // 基本变量
+// 钟盘大小
+var r_clock = 170;
+// 时针长度：时分秒
+var r_hours = 70;
+var r_minute = 100;
+var r_second = 130;
+// 定义1°
+var pi = Math.PI*2/360;
+// 获取画板
+var canvas = document.querySelector("canvas");
+var clock = canvas.getContext('2d');
+
+// 画线条函数
+function dwLine(start1,start2,end1,end2,color="#000"){
+    clock.beginPath();
+    clock.moveTo(start1,start2);
+    clock.lineTo(end1,end2);
+    clock.strokeStyle = color;
+    clock.stroke();
+    clock.closePath();
+    clock.lineCap = 'round';
+}
+
+
+
+
+
+function time() {
+    // 绘制时钟的圆盘和钟盘的圆心
+    clock.beginPath();
+    clock.arc(200,200,r_clock,0,2*Math.PI,false);
+    clock.fillStyle = "#fff";
+    clock.fill();
+    clock.beginPath();
+    clock.arc(200,200,7,0,2*Math.PI,false);
+    clock.fillStyle = '#000';
+    clock.fill();
+
+
+    // 绘制时钟刻度
+    clock.strokeStyle = "#000";
+    for(var i=1;i<=60;i++){
+        var x = Math.cos(pi*6*i-Math.PI/2);
+        var y = Math.sin(pi*6*i-Math.PI/2);
+        if(i%5==0){
+            clock.lineWidth = 3;
+            // 绘制时钟数字
+            clock.textAlign = 'center';
+            clock.textBaseline = 'middle';
+            clock.font = 'bold 17px 微软雅黑';
+            clock.fillText(i/5,200+145*x,200+145*y);
+        }
+        else {
+            clock.lineWidth = 1;
+        } 
+        dwLine(200+r_clock*x,200+r_clock*y,200+(r_clock-10)*x,200+(r_clock-10)*y)
+    }
+    
+    // 获取当前的时分秒
+    var date = new Date();
+    var h = date.getHours();
+    if(h>12){
+        h-=12;
+    }
+    var m = date.getMinutes();
+    var s = date.getSeconds();
+
+    // 绘制时针
+    clock.lineWidth = 7;
+    var x = Math.cos(pi*h*30-Math.PI/2);
+    var y = Math.sin(pi*h*30-Math.PI/2);
+    dwLine(200,200,200+r_hours*x,200+r_hours*y,'#000');
+
+    // 绘制分针
+    clock.lineWidth = 4;
+    var x = Math.cos(pi*m*6-Math.PI/2);
+    var y = Math.sin(pi*m*6-Math.PI/2);
+    dwLine(200,200,200+r_minute*x,200+r_minute*y,'rgb(151, 63, 0)');
+
+    // 绘制秒针
+    clock.lineWidth = 2;
+    var x = Math.cos(pi*s*6-Math.PI/2);
+    var y = Math.sin(pi*s*6-Math.PI/2);
+    dwLine(200,200,200+r_second*x,200+r_second*y,'red');
+}
+
+time();
+
+setInterval(function(){
+    time();
+},1000);  
+</script>
+
+</html>
