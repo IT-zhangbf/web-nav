@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Nav - 个人导航</title>
+    <title>个人导航</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Noto+Sans+SC:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -17,10 +17,27 @@
 
         body {
             font-family: 'Inter', 'Noto Sans SC', -apple-system, BlinkMacSystemFont, sans-serif;
-            background: linear-gradient(135deg, #e8f4f8 0%, #d4e9f0 50%, #c5dfe8 100%);
+            background: linear-gradient(135deg, #0a0a0f 0%, #0f1419 50%, #0a0e17 100%);
             min-height: 100vh;
             padding: 40px 20px;
-            color: #333;
+            color: #e0e6ed;
+            position: relative;
+            overflow-x: hidden;
+        }
+
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: 
+                linear-gradient(rgba(0, 212, 255, 0.03) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(0, 212, 255, 0.03) 1px, transparent 1px);
+            background-size: 50px 50px;
+            pointer-events: none;
+            z-index: 0;
         }
 
         .container {
@@ -38,54 +55,78 @@
         .clock {
             font-size: 72px;
             font-weight: 300;
-            color: #2c3e50;
-            letter-spacing: 4px;
+            color: #00d4ff;
+            letter-spacing: 6px;
             font-variant-numeric: tabular-nums;
-            text-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            text-shadow: 0 0 20px rgba(0, 212, 255, 0.5), 0 0 40px rgba(0, 212, 255, 0.3);
+            font-family: 'Courier New', monospace;
         }
 
         .date {
             font-size: 16px;
-            color: #7f8c8d;
+            color: #8892a0;
             margin-top: 10px;
             font-weight: 400;
+            letter-spacing: 2px;
+            text-transform: uppercase;
         }
 
         /* 导航卡片 */
         .nav-card {
-            background: rgba(255, 255, 255, 0.85);
+            background: rgba(15, 20, 30, 0.7);
             backdrop-filter: blur(20px);
-            border-radius: 20px;
+            border-radius: 16px;
             padding: 35px 40px;
             margin-bottom: 25px;
-            box-shadow: 0 8px 32px rgba(31, 38, 135, 0.08);
-            border: 1px solid rgba(255, 255, 255, 0.6);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(0, 212, 255, 0.15);
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .nav-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(0, 212, 255, 0.05), transparent);
+            transition: left 0.5s ease;
+        }
+
+        .nav-card:hover::before {
+            left: 100%;
         }
 
         .nav-card:hover {
             transform: translateY(-3px);
-            box-shadow: 0 12px 40px rgba(31, 38, 135, 0.12);
+            box-shadow: 0 12px 40px rgba(0, 212, 255, 0.15), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+            border-color: rgba(0, 212, 255, 0.3);
         }
 
         .section-title {
             font-size: 18px;
             font-weight: 600;
-            color: #2c3e50;
+            color: #00d4ff;
             margin-bottom: 20px;
             padding-bottom: 12px;
-            border-bottom: 2px solid #e8f4f8;
+            border-bottom: 1px solid rgba(0, 212, 255, 0.2);
             display: flex;
             align-items: center;
             gap: 10px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
         }
 
         .section-title::before {
             content: '';
             width: 4px;
             height: 20px;
-            background: linear-gradient(180deg, #3498db, #2980b9);
+            background: linear-gradient(180deg, #00d4ff, #0099cc);
             border-radius: 2px;
+            box-shadow: 0 0 10px rgba(0, 212, 255, 0.5);
         }
 
         .links-grid {
@@ -99,21 +140,21 @@
             align-items: center;
             gap: 6px;
             padding: 8px 16px;
-            background: #f8fafb;
+            background: rgba(0, 212, 255, 0.08);
             border-radius: 8px;
             text-decoration: none;
-            color: #34495e;
+            color: #a8b2d1;
             font-size: 14px;
             font-weight: 400;
             transition: all 0.25s ease;
-            border: 1px solid transparent;
+            border: 1px solid rgba(0, 212, 255, 0.15);
         }
 
         .link-item:hover {
-            background: #fff;
-            color: #2980b9;
-            border-color: #e1ecf0;
-            box-shadow: 0 4px 12px rgba(52, 152, 219, 0.15);
+            background: rgba(0, 212, 255, 0.15);
+            color: #00d4ff;
+            border-color: rgba(0, 212, 255, 0.4);
+            box-shadow: 0 4px 15px rgba(0, 212, 255, 0.2), 0 0 20px rgba(0, 212, 255, 0.1);
             transform: translateY(-2px);
         }
 
@@ -143,15 +184,16 @@
             color: #5d6d7e;
             text-decoration: none;
             font-size: 13px;
-            transition: color 0.2s;
+            transition: all 0.2s;
         }
 
         .footer-link:hover {
-            color: #2980b9;
+            color: #00d4ff;
+            text-shadow: 0 0 10px rgba(0, 212, 255, 0.5);
         }
 
         .copyright {
-            color: #95a5a6;
+            color: #4a5568;
             font-size: 12px;
         }
 
