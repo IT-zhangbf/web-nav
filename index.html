@@ -2473,6 +2473,31 @@
         let currentEngine = 'baidu';
         let currentEngineUrl = 'https://www.baidu.com/s?wd=';
 
+        // 从localStorage读取保存的搜索引擎
+        function loadSavedSearchEngine() {
+            const savedEngine = localStorage.getItem('searchEngine');
+            const savedUrl = localStorage.getItem('searchEngineUrl');
+            if (savedEngine && savedUrl) {
+                currentEngine = savedEngine;
+                currentEngineUrl = savedUrl;
+                
+                // 更新UI显示
+                const targetItem = document.querySelector(`.search-engine-item[data-engine="${savedEngine}"]`);
+                if (targetItem) {
+                    searchEngineItems.forEach(i => i.classList.remove('active'));
+                    targetItem.classList.add('active');
+                    currentEngineIcon.className = `search-engine-icon ${savedEngine}`;
+                    currentEngineIcon.textContent = targetItem.querySelector('.search-engine-item-icon').textContent;
+                }
+            }
+        }
+
+        // 保存搜索引擎到localStorage
+        function saveSearchEngine(engine, url) {
+            localStorage.setItem('searchEngine', engine);
+            localStorage.setItem('searchEngineUrl', url);
+        }
+
         // 检查本地存储，如果之前是极简模式则自动切换
         function checkMinimalMode() {
             const isMinimalMode = localStorage.getItem('minimalMode') === 'true';
@@ -2501,8 +2526,9 @@
             localStorage.setItem('minimalMode', 'false');
         }
 
-        // 页面加载时检查模式
+        // 页面加载时检查模式和搜索引擎
         checkMinimalMode();
+        loadSavedSearchEngine();
 
         // 极简模式时钟
         function updateMinimalClock() {
@@ -2554,6 +2580,9 @@
                 
                 currentEngine = item.dataset.engine;
                 currentEngineUrl = item.dataset.url;
+                
+                // 保存到localStorage
+                saveSearchEngine(currentEngine, currentEngineUrl);
                 
                 // 更新图标
                 currentEngineIcon.className = `search-engine-icon ${currentEngine}`;
