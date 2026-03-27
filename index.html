@@ -87,7 +87,6 @@
             flex-direction: column;
             align-items: flex-start;
             padding-left: 20px;
-            border-left: 1px solid #e2e8f0;
         }
 
         .header-clock .clock {
@@ -311,7 +310,6 @@
             font-weight: 300;
             color: #1e293b;
             letter-spacing: 2px;
-            font-variant-numeric: tabular-nums;
             margin-bottom: 12px;
             cursor: pointer;
             transition: all 0.3s ease;
@@ -826,6 +824,14 @@
             flex-shrink: 0;
             box-shadow: 0 2px 8px rgba(0,0,0,0.1);
             transition: all 0.3s ease;
+            overflow: hidden;
+            background: #f1f5f9;
+        }
+
+        .link-icon img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
         }
 
         .link-card:hover .link-icon {
@@ -1562,105 +1568,105 @@
                 </div>
                 <div class="cards-grid">
                     <a href="https://chat.openai.com" class="link-card" target="_blank">
-                        <div class="link-icon icon-ai">C</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=chat.openai.com&sz=64" alt="ChatGPT"></div>
                         <div class="link-info">
                             <div class="link-name">ChatGPT</div>
                             <div class="link-desc">OpenAI官方</div>
                         </div>
                     </a>
                     <a href="https://claude.ai" class="link-card" target="_blank">
-                        <div class="link-icon icon-ai">C</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=claude.ai&sz=64" alt="Claude"></div>
                         <div class="link-info">
                             <div class="link-name">Claude</div>
                             <div class="link-desc">Anthropic出品</div>
                         </div>
                     </a>
                     <a href="https://gemini.google.com" class="link-card" target="_blank">
-                        <div class="link-icon icon-ai">G</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=gemini.google.com&sz=64" alt="Gemini"></div>
                         <div class="link-info">
                             <div class="link-name">Gemini</div>
                             <div class="link-desc">Google AI</div>
                         </div>
                     </a>
                     <a href="https://grok.com" class="link-card" target="_blank">
-                        <div class="link-icon icon-ai">G</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=grok.com&sz=64" alt="Grok"></div>
                         <div class="link-info">
                             <div class="link-name">Grok</div>
                             <div class="link-desc">xAI开发</div>
                         </div>
                     </a>
                     <a href="https://www.perplexity.ai" class="link-card" target="_blank">
-                        <div class="link-icon icon-ai">P</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=perplexity.ai&sz=64" alt="Perplexity"></div>
                         <div class="link-info">
                             <div class="link-name">Perplexity</div>
                             <div class="link-desc">AI搜索引擎</div>
                         </div>
                     </a>
                     <a href="https://poe.com" class="link-card" target="_blank">
-                        <div class="link-icon icon-ai">P</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=poe.com&sz=64" alt="Poe"></div>
                         <div class="link-info">
                             <div class="link-name">Poe</div>
                             <div class="link-desc">AI聚合平台</div>
                         </div>
                     </a>
                     <a href="https://yiyan.baidu.com" class="link-card" target="_blank">
-                        <div class="link-icon icon-ai">文</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=yiyan.baidu.com&sz=64" alt="文心一言"></div>
                         <div class="link-info">
                             <div class="link-name">文心一言</div>
                             <div class="link-desc">百度出品</div>
                         </div>
                     </a>
                     <a href="https://qianwen.aliyun.com" class="link-card" target="_blank">
-                        <div class="link-icon icon-ai">通</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=qianwen.aliyun.com&sz=64" alt="通义千问"></div>
                         <div class="link-info">
                             <div class="link-name">通义千问</div>
                             <div class="link-desc">阿里云</div>
                         </div>
                     </a>
                     <a href="https://yuanbao.tencent.com" class="link-card" target="_blank">
-                        <div class="link-icon icon-ai">元</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=yuanbao.tencent.com&sz=64" alt="腾讯元宝"></div>
                         <div class="link-info">
                             <div class="link-name">腾讯元宝</div>
                             <div class="link-desc">腾讯混元</div>
                         </div>
                     </a>
                     <a href="https://kimi.moonshot.cn" class="link-card" target="_blank">
-                        <div class="link-icon icon-ai">K</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=kimi.moonshot.cn&sz=64" alt="Kimi"></div>
                         <div class="link-info">
                             <div class="link-name">Kimi</div>
                             <div class="link-desc">月之暗面</div>
                         </div>
                     </a>
                     <a href="https://chat.deepseek.com" class="link-card" target="_blank">
-                        <div class="link-icon icon-ai">D</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=chat.deepseek.com&sz=64" alt="DeepSeek"></div>
                         <div class="link-info">
                             <div class="link-name">DeepSeek</div>
                             <div class="link-desc">深度求索</div>
                         </div>
                     </a>
                     <a href="https://agent.minimaxi.com/" class="link-card" target="_blank">
-                        <div class="link-icon icon-ai">M</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=minimaxi.com&sz=64" alt="MiniMax"></div>
                         <div class="link-info">
                             <div class="link-name">MiniMax</div>
                             <div class="link-desc">海螺AI</div>
                         </div>
                     </a>
                     <a href="https://www.doubao.com/chat/" class="link-card" target="_blank">
-                        <div class="link-icon icon-ai">豆</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=doubao.com&sz=64" alt="豆包"></div>
                         <div class="link-info">
                             <div class="link-name">豆包</div>
                             <div class="link-desc">字节跳动</div>
                         </div>
                     </a>
                     <a href="https://xinghuo.xfyun.cn" class="link-card" target="_blank">
-                        <div class="link-icon icon-ai">讯</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=xinghuo.xfyun.cn&sz=64" alt="讯飞星火"></div>
                         <div class="link-info">
                             <div class="link-name">讯飞星火</div>
                             <div class="link-desc">科大讯飞</div>
                         </div>
                     </a>
                     <a href="https://chatglm.cn" class="link-card" target="_blank">
-                        <div class="link-icon icon-ai">智</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=chatglm.cn&sz=64" alt="智谱清言"></div>
                         <div class="link-info">
                             <div class="link-name">智谱清言</div>
                             <div class="link-desc">ChatGLM</div>
@@ -1728,70 +1734,70 @@
                 </div>
                 <div class="cards-grid">
                     <a href="https://c.runoob.com/" class="link-card" target="_blank">
-                        <div class="link-icon icon-tool">菜</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=runoob.com&sz=64" alt="菜鸟工具"></div>
                         <div class="link-info">
                             <div class="link-name">菜鸟工具</div>
                             <div class="link-desc">在线工具集</div>
                         </div>
                     </a>
                     <a href="https://tools.pdf24.org/zh/" class="link-card" target="_blank">
-                        <div class="link-icon icon-tool">P</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=pdf24.org&sz=64" alt="PDF24 Tools"></div>
                         <div class="link-info">
                             <div class="link-name">PDF24 Tools</div>
                             <div class="link-desc">PDF处理</div>
                         </div>
                     </a>
                     <a href="https://www.67tool.com/" class="link-card" target="_blank">
-                        <div class="link-icon icon-tool">即</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=67tool.com&sz=64" alt="即时工具"></div>
                         <div class="link-info">
                             <div class="link-name">即时工具</div>
                             <div class="link-desc">工具合集</div>
                         </div>
                     </a>
                     <a href="https://ai.quark.cn/" class="link-card" target="_blank">
-                        <div class="link-icon icon-tool">夸</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=quark.cn&sz=64" alt="夸克"></div>
                         <div class="link-info">
                             <div class="link-name">夸克</div>
                             <div class="link-desc">AI搜索</div>
                         </div>
                     </a>
                     <a href="https://www.alltoall.net/" class="link-card" target="_blank">
-                        <div class="link-icon icon-tool">转</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=alltoall.net&sz=64" alt="格式转换"></div>
                         <div class="link-info">
                             <div class="link-name">格式转换</div>
                             <div class="link-desc">文件转换</div>
                         </div>
                     </a>
                     <a href="https://tool.mkblog.cn/whiteboard/" class="link-card" target="_blank">
-                        <div class="link-icon icon-tool">白</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=mkblog.cn&sz=64" alt="白板"></div>
                         <div class="link-info">
                             <div class="link-name">白板</div>
                             <div class="link-desc">在线白板</div>
                         </div>
                     </a>
                     <a href="https://www.remove.bg" class="link-card" target="_blank">
-                        <div class="link-icon icon-tool">R</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=remove.bg&sz=64" alt="Remove.bg"></div>
                         <div class="link-info">
                             <div class="link-name">Remove.bg</div>
                             <div class="link-desc">智能抠图</div>
                         </div>
                     </a>
                     <a href="https://www.chatpdf.com" class="link-card" target="_blank">
-                        <div class="link-icon icon-tool">P</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=chatpdf.com&sz=64" alt="ChatPDF"></div>
                         <div class="link-info">
                             <div class="link-name">ChatPDF</div>
                             <div class="link-desc">PDF对话</div>
                         </div>
                     </a>
                     <a href="https://gamma.app" class="link-card" target="_blank">
-                        <div class="link-icon icon-tool">G</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=gamma.app&sz=64" alt="Gamma"></div>
                         <div class="link-info">
                             <div class="link-name">Gamma</div>
                             <div class="link-desc">AI演示</div>
                         </div>
                     </a>
                     <a href="https://chatexcel.com" class="link-card" target="_blank">
-                        <div class="link-icon icon-tool">E</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=chatexcel.com&sz=64" alt="ChatExcel"></div>
                         <div class="link-info">
                             <div class="link-name">ChatExcel</div>
                             <div class="link-desc">AI表格</div>
@@ -1811,77 +1817,77 @@
                 </div>
                 <div class="cards-grid">
                     <a href="https://www.ximalaya.com/" class="link-card" target="_blank">
-                        <div class="link-icon icon-study">喜</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=ximalaya.com&sz=64" alt="喜马拉雅"></div>
                         <div class="link-info">
                             <div class="link-name">喜马拉雅</div>
                             <div class="link-desc">有声学习</div>
                         </div>
                     </a>
                     <a href="https://www.bilibili.com/" class="link-card" target="_blank">
-                        <div class="link-icon icon-study">B</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=bilibili.com&sz=64" alt="哔哩哔哩"></div>
                         <div class="link-info">
                             <div class="link-name">哔哩哔哩</div>
                             <div class="link-desc">视频学习</div>
                         </div>
                     </a>
                     <a href="https://www.zhihu.com/" class="link-card" target="_blank">
-                        <div class="link-icon icon-study">知</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=zhihu.com&sz=64" alt="知乎"></div>
                         <div class="link-info">
                             <div class="link-name">知乎</div>
                             <div class="link-desc">知识问答</div>
                         </div>
                     </a>
                     <a href="https://github.com/" class="link-card" target="_blank">
-                        <div class="link-icon icon-study">G</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=github.com&sz=64" alt="GitHub"></div>
                         <div class="link-info">
                             <div class="link-name">GitHub</div>
                             <div class="link-desc">代码托管</div>
                         </div>
                     </a>
                     <a href="https://www.imooc.com/" class="link-card" target="_blank">
-                        <div class="link-icon icon-study">慕</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=imooc.com&sz=64" alt="慕课网"></div>
                         <div class="link-info">
                             <div class="link-name">慕课网</div>
                             <div class="link-desc">IT技能</div>
                         </div>
                     </a>
                     <a href="https://time.geekbang.org/" class="link-card" target="_blank">
-                        <div class="link-icon icon-study">极</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=geekbang.org&sz=64" alt="极客时间"></div>
                         <div class="link-info">
                             <div class="link-name">极客时间</div>
                             <div class="link-desc">技术课程</div>
                         </div>
                     </a>
                     <a href="https://juejin.cn/" class="link-card" target="_blank">
-                        <div class="link-icon icon-study">掘</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=juejin.cn&sz=64" alt="掘金"></div>
                         <div class="link-info">
                             <div class="link-name">掘金</div>
                             <div class="link-desc">技术社区</div>
                         </div>
                     </a>
                     <a href="https://learnku.com/" class="link-card" target="_blank">
-                        <div class="link-icon icon-study">L</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=learnku.com&sz=64" alt="LearnKu"></div>
                         <div class="link-info">
                             <div class="link-name">LearnKu</div>
                             <div class="link-desc">开发者社区</div>
                         </div>
                     </a>
                     <a href="https://man.niaoge.com/" class="link-card" target="_blank">
-                        <div class="link-icon icon-study">L</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=niaoge.com&sz=64" alt="Linux命令"></div>
                         <div class="link-info">
                             <div class="link-name">Linux命令</div>
                             <div class="link-desc">命令查询</div>
                         </div>
                     </a>
                     <a href="https://www.runoob.com/" class="link-card" target="_blank">
-                        <div class="link-icon icon-study">菜</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=runoob.com&sz=64" alt="菜鸟教程"></div>
                         <div class="link-info">
                             <div class="link-name">菜鸟教程</div>
                             <div class="link-desc">编程入门</div>
                         </div>
                     </a>
                     <a href="https://app.diagrams.net/" class="link-card" target="_blank">
-                        <div class="link-icon icon-study">画</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=diagrams.net&sz=64" alt="画图工具"></div>
                         <div class="link-info">
                             <div class="link-name">画图工具</div>
                             <div class="link-desc">流程图绘制</div>
@@ -1901,70 +1907,70 @@
                 </div>
                 <div class="cards-grid">
                     <a href="https://v.qq.com" class="link-card" target="_blank">
-                        <div class="link-icon icon-video">腾</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=v.qq.com&sz=64" alt="腾讯视频"></div>
                         <div class="link-info">
                             <div class="link-name">腾讯视频</div>
                             <div class="link-desc">综合视频</div>
                         </div>
                     </a>
                     <a href="https://www.iqiyi.com" class="link-card" target="_blank">
-                        <div class="link-icon icon-video">爱</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=iqiyi.com&sz=64" alt="爱奇艺"></div>
                         <div class="link-info">
                             <div class="link-name">爱奇艺</div>
                             <div class="link-desc">综合视频</div>
                         </div>
                     </a>
                     <a href="https://www.youku.com" class="link-card" target="_blank">
-                        <div class="link-icon icon-video">优</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=youku.com&sz=64" alt="优酷"></div>
                         <div class="link-info">
                             <div class="link-name">优酷</div>
                             <div class="link-desc">综合视频</div>
                         </div>
                     </a>
                     <a href="https://www.mgtv.com" class="link-card" target="_blank">
-                        <div class="link-icon icon-video">芒</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=mgtv.com&sz=64" alt="芒果TV"></div>
                         <div class="link-info">
                             <div class="link-name">芒果TV</div>
                             <div class="link-desc">综艺视频</div>
                         </div>
                     </a>
                     <a href="https://www.bilibili.com" class="link-card" target="_blank">
-                        <div class="link-icon icon-video">B</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=bilibili.com&sz=64" alt="哔哩哔哩"></div>
                         <div class="link-info">
                             <div class="link-name">哔哩哔哩</div>
                             <div class="link-desc">弹幕视频</div>
                         </div>
                     </a>
                     <a href="https://www.ixigua.com" class="link-card" target="_blank">
-                        <div class="link-icon icon-video">西</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=ixigua.com&sz=64" alt="西瓜视频"></div>
                         <div class="link-info">
                             <div class="link-name">西瓜视频</div>
                             <div class="link-desc">中视频</div>
                         </div>
                     </a>
                     <a href="https://www.douyin.com" class="link-card" target="_blank">
-                        <div class="link-icon icon-video">抖</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=douyin.com&sz=64" alt="抖音"></div>
                         <div class="link-info">
                             <div class="link-name">抖音</div>
                             <div class="link-desc">短视频</div>
                         </div>
                     </a>
                     <a href="https://www.kuaishou.com" class="link-card" target="_blank">
-                        <div class="link-icon icon-video">快</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=kuaishou.com&sz=64" alt="快手"></div>
                         <div class="link-info">
                             <div class="link-name">快手</div>
                             <div class="link-desc">短视频</div>
                         </div>
                     </a>
                     <a href="https://www.youtube.com" class="link-card" target="_blank">
-                        <div class="link-icon icon-video">Y</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=youtube.com&sz=64" alt="YouTube"></div>
                         <div class="link-info">
                             <div class="link-name">YouTube</div>
                             <div class="link-desc">国际视频</div>
                         </div>
                     </a>
                     <a href="https://www.netflix.com" class="link-card" target="_blank">
-                        <div class="link-icon icon-video">N</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=netflix.com&sz=64" alt="Netflix"></div>
                         <div class="link-info">
                             <div class="link-name">Netflix</div>
                             <div class="link-desc">流媒体</div>
@@ -1984,35 +1990,35 @@
                 </div>
                 <div class="cards-grid">
                     <a href="https://www.douyu.com" class="link-card" target="_blank">
-                        <div class="link-icon icon-live">斗</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=douyu.com&sz=64" alt="斗鱼直播"></div>
                         <div class="link-info">
                             <div class="link-name">斗鱼直播</div>
                             <div class="link-desc">游戏直播</div>
                         </div>
                     </a>
                     <a href="https://www.huya.com" class="link-card" target="_blank">
-                        <div class="link-icon icon-live">虎</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=huya.com&sz=64" alt="虎牙直播"></div>
                         <div class="link-info">
                             <div class="link-name">虎牙直播</div>
                             <div class="link-desc">游戏直播</div>
                         </div>
                     </a>
                     <a href="https://live.bilibili.com" class="link-card" target="_blank">
-                        <div class="link-icon icon-live">B</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=bilibili.com&sz=64" alt="B站直播"></div>
                         <div class="link-info">
                             <div class="link-name">B站直播</div>
                             <div class="link-desc">综合直播</div>
                         </div>
                     </a>
                     <a href="https://www.yy.com" class="link-card" target="_blank">
-                        <div class="link-icon icon-live">Y</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=yy.com&sz=64" alt="YY直播"></div>
                         <div class="link-info">
                             <div class="link-name">YY直播</div>
                             <div class="link-desc">娱乐直播</div>
                         </div>
                     </a>
                     <a href="https://www.twitch.tv" class="link-card" target="_blank">
-                        <div class="link-icon icon-live">T</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=twitch.tv&sz=64" alt="Twitch"></div>
                         <div class="link-info">
                             <div class="link-name">Twitch</div>
                             <div class="link-desc">国际直播</div>
@@ -2032,28 +2038,28 @@
                 </div>
                 <div class="cards-grid">
                     <a href="http://www.iyinghua.io" class="link-card" target="_blank">
-                        <div class="link-icon icon-anime">樱</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=iyinghua.io&sz=64" alt="樱花动漫"></div>
                         <div class="link-info">
                             <div class="link-name">樱花动漫</div>
                             <div class="link-desc">免费动漫</div>
                         </div>
                     </a>
                     <a href="https://www.agedm.org" class="link-card" target="_blank">
-                        <div class="link-icon icon-anime">A</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=agedm.org&sz=64" alt="AGE动漫"></div>
                         <div class="link-info">
                             <div class="link-name">AGE动漫</div>
                             <div class="link-desc">资源丰富</div>
                         </div>
                     </a>
                     <a href="https://www.crunchyroll.com" class="link-card" target="_blank">
-                        <div class="link-icon icon-anime">C</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=64" alt="Crunchyroll"></div>
                         <div class="link-info">
                             <div class="link-name">Crunchyroll</div>
                             <div class="link-desc">正版动漫</div>
                         </div>
                     </a>
                     <a href="https://ani.gamer.com.tw" class="link-card" target="_blank">
-                        <div class="link-icon icon-anime">巴</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=gamer.com.tw&sz=64" alt="巴哈姆特"></div>
                         <div class="link-info">
                             <div class="link-name">巴哈姆特</div>
                             <div class="link-desc">台湾正版</div>
@@ -2073,84 +2079,84 @@
                 </div>
                 <div class="cards-grid">
                     <a href="https://www.qidian.com" class="link-card" target="_blank">
-                        <div class="link-icon icon-novel">起</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=qidian.com&sz=64" alt="起点中文网"></div>
                         <div class="link-info">
                             <div class="link-name">起点中文网</div>
                             <div class="link-desc">男频霸主</div>
                         </div>
                     </a>
                     <a href="https://www.jjwxc.net" class="link-card" target="_blank">
-                        <div class="link-icon icon-novel">晋</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=jjwxc.net&sz=64" alt="晋江文学城"></div>
                         <div class="link-info">
                             <div class="link-name">晋江文学城</div>
                             <div class="link-desc">女频霸主</div>
                         </div>
                     </a>
                     <a href="https://fanqienovel.com" class="link-card" target="_blank">
-                        <div class="link-icon icon-novel">番</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=fanqienovel.com&sz=64" alt="番茄小说"></div>
                         <div class="link-info">
                             <div class="link-name">番茄小说</div>
                             <div class="link-desc">免费小说</div>
                         </div>
                     </a>
                     <a href="https://www.qimao.com" class="link-card" target="_blank">
-                        <div class="link-icon icon-novel">七</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=qimao.com&sz=64" alt="七猫小说"></div>
                         <div class="link-info">
                             <div class="link-name">七猫小说</div>
                             <div class="link-desc">免费小说</div>
                         </div>
                     </a>
                     <a href="http://www.zongheng.com" class="link-card" target="_blank">
-                        <div class="link-icon icon-novel">纵</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=zongheng.com&sz=64" alt="纵横中文网"></div>
                         <div class="link-info">
                             <div class="link-name">纵横中文网</div>
                             <div class="link-desc">百度文学</div>
                         </div>
                     </a>
                     <a href="https://weread.qq.com" class="link-card" target="_blank">
-                        <div class="link-icon icon-novel">微</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=weread.qq.com&sz=64" alt="微信读书"></div>
                         <div class="link-info">
                             <div class="link-name">微信读书</div>
                             <div class="link-desc">出版书籍</div>
                         </div>
                     </a>
                     <a href="https://read.douban.com" class="link-card" target="_blank">
-                        <div class="link-icon icon-novel">豆</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=douban.com&sz=64" alt="豆瓣阅读"></div>
                         <div class="link-info">
                             <div class="link-name">豆瓣阅读</div>
                             <div class="link-desc">精品出版</div>
                         </div>
                     </a>
                     <a href="https://www.zhangyue.com" class="link-card" target="_blank">
-                        <div class="link-icon icon-novel">掌</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=zhangyue.com&sz=64" alt="掌阅"></div>
                         <div class="link-info">
                             <div class="link-name">掌阅</div>
                             <div class="link-desc">老牌平台</div>
                         </div>
                     </a>
                     <a href="https://www.ciweimao.com" class="link-card" target="_blank">
-                        <div class="link-icon icon-novel">刺</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=ciweimao.com&sz=64" alt="刺猬猫"></div>
                         <div class="link-info">
                             <div class="link-name">刺猬猫</div>
                             <div class="link-desc">二次元</div>
                         </div>
                     </a>
                     <a href="https://www.sfacg.com" class="link-card" target="_blank">
-                        <div class="link-icon icon-novel">菠</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=sfacg.com&sz=64" alt="菠萝包轻小说"></div>
                         <div class="link-info">
                             <div class="link-name">菠萝包轻小说</div>
                             <div class="link-desc">轻小说</div>
                         </div>
                     </a>
                     <a href="https://www.gongzicp.com" class="link-card" target="_blank">
-                        <div class="link-icon icon-novel">长</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=gongzicp.com&sz=64" alt="长佩文学"></div>
                         <div class="link-info">
                             <div class="link-name">长佩文学</div>
                             <div class="link-desc">纯爱文学</div>
                         </div>
                     </a>
                     <a href="https://zh.z-lib.gd" class="link-card" target="_blank">
-                        <div class="link-icon icon-novel">Z</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=z-lib.gd&sz=64" alt="ZLibrary"></div>
                         <div class="link-info">
                             <div class="link-name">ZLibrary</div>
                             <div class="link-desc">电子书库</div>
@@ -2170,28 +2176,28 @@
                 </div>
                 <div class="cards-grid">
                     <a href="https://www.ximalaya.com" class="link-card" target="_blank">
-                        <div class="link-icon icon-audio">喜</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=ximalaya.com&sz=64" alt="喜马拉雅"></div>
                         <div class="link-info">
                             <div class="link-name">喜马拉雅</div>
                             <div class="link-desc">有声平台</div>
                         </div>
                     </a>
                     <a href="https://www.lrts.me" class="link-card" target="_blank">
-                        <div class="link-icon icon-audio">懒</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=lrts.me&sz=64" alt="懒人听书"></div>
                         <div class="link-info">
                             <div class="link-name">懒人听书</div>
                             <div class="link-desc">有声阅读</div>
                         </div>
                     </a>
                     <a href="https://www.qtfm.cn" class="link-card" target="_blank">
-                        <div class="link-icon icon-audio">蜻</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=qtfm.cn&sz=64" alt="蜻蜓FM"></div>
                         <div class="link-info">
                             <div class="link-name">蜻蜓FM</div>
                             <div class="link-desc">广播音频</div>
                         </div>
                     </a>
                     <a href="https://www.tingfanqie.com" class="link-card" target="_blank">
-                        <div class="link-icon icon-audio">番</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=tingfanqie.com&sz=64" alt="番茄畅听"></div>
                         <div class="link-info">
                             <div class="link-name">番茄畅听</div>
                             <div class="link-desc">免费听书</div>
@@ -2211,56 +2217,56 @@
                 </div>
                 <div class="cards-grid">
                     <a href="https://www.zdic.net/" class="link-card" target="_blank">
-                        <div class="link-icon icon-classic">汉</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=zdic.net&sz=64" alt="汉典"></div>
                         <div class="link-info">
                             <div class="link-name">汉典</div>
                             <div class="link-desc">汉字字典</div>
                         </div>
                     </a>
                     <a href="https://www.shidianguji.com/" class="link-card" target="_blank">
-                        <div class="link-icon icon-classic">识</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=shidianguji.com&sz=64" alt="识典古籍"></div>
                         <div class="link-info">
                             <div class="link-name">识典古籍</div>
                             <div class="link-desc">古籍数字化</div>
                         </div>
                     </a>
                     <a href="https://www.zhonghuadiancang.com/" class="link-card" target="_blank">
-                        <div class="link-icon icon-classic">中</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=zhonghuadiancang.com&sz=64" alt="中华典藏"></div>
                         <div class="link-info">
                             <div class="link-name">中华典藏</div>
                             <div class="link-desc">经典文献</div>
                         </div>
                     </a>
                     <a href="https://ctext.org/zhs" class="link-card" target="_blank">
-                        <div class="link-icon icon-classic">哲</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=ctext.org&sz=64" alt="中华哲学"></div>
                         <div class="link-info">
                             <div class="link-name">中华哲学</div>
                             <div class="link-desc">哲学经典</div>
                         </div>
                     </a>
                     <a href="https://www.daorenjia.com/" class="link-card" target="_blank">
-                        <div class="link-icon icon-classic">道</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=daorenjia.com&sz=64" alt="道藏"></div>
                         <div class="link-info">
                             <div class="link-name">道藏</div>
                             <div class="link-desc">道教经典</div>
                         </div>
                     </a>
                     <a href="https://www.fojingzaixian.com/" class="link-card" target="_blank">
-                        <div class="link-icon icon-classic">佛</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=fojingzaixian.com&sz=64" alt="佛经"></div>
                         <div class="link-info">
                             <div class="link-name">佛经</div>
                             <div class="link-desc">佛教经典</div>
                         </div>
                     </a>
                     <a href="https://www.zhishikoo.com/" class="link-card" target="_blank">
-                        <div class="link-icon icon-classic">知</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=zhishikoo.com&sz=64" alt="知识库"></div>
                         <div class="link-info">
                             <div class="link-name">知识库</div>
                             <div class="link-desc">知识资源</div>
                         </div>
                     </a>
                     <a href="https://www.jiumodiary.com/" class="link-card" target="_blank">
-                        <div class="link-icon icon-classic">鸠</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=jiumodiary.com&sz=64" alt="鸠摩搜书"></div>
                         <div class="link-info">
                             <div class="link-name">鸠摩搜书</div>
                             <div class="link-desc">图书搜索</div>
@@ -2280,56 +2286,56 @@
                 </div>
                 <div class="cards-grid">
                     <a href="https://www.bidianer.com/" class="link-card" target="_blank">
-                        <div class="link-icon icon-ent">笔</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=bidianer.com&sz=64" alt="笔点"></div>
                         <div class="link-info">
                             <div class="link-name">笔点</div>
                             <div class="link-desc">资源导航</div>
                         </div>
                     </a>
                     <a href="https://www.haxishijie.com/" class="link-card" target="_blank">
-                        <div class="link-icon icon-ent">哈</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=haxishijie.com&sz=64" alt="哈希影视"></div>
                         <div class="link-info">
                             <div class="link-name">哈希影视</div>
                             <div class="link-desc">影视资源</div>
                         </div>
                     </a>
                     <a href="https://tv.cctv.com/live/" class="link-card" target="_blank">
-                        <div class="link-icon icon-ent">C</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=cctv.com&sz=64" alt="CCTV直播"></div>
                         <div class="link-info">
                             <div class="link-name">CCTV直播</div>
                             <div class="link-desc">电视直播</div>
                         </div>
                     </a>
                     <a href="https://moyu.games/" class="link-card" target="_blank">
-                        <div class="link-icon icon-ent">摸</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=moyu.games&sz=64" alt="摸鱼导航"></div>
                         <div class="link-info">
                             <div class="link-name">摸鱼导航</div>
                             <div class="link-desc">休闲游戏</div>
                         </div>
                     </a>
                     <a href="https://www.qijishow.com/" class="link-card" target="_blank">
-                        <div class="link-icon icon-ent">奇</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=qijishow.com&sz=64" alt="奇迹秀"></div>
                         <div class="link-info">
                             <div class="link-name">奇迹秀</div>
                             <div class="link-desc">设计资源</div>
                         </div>
                     </a>
                     <a href="https://www.wo1wan.com/" class="link-card" target="_blank">
-                        <div class="link-icon icon-ent">畅</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=wo1wan.com&sz=64" alt="畅玩空间"></div>
                         <div class="link-info">
                             <div class="link-name">畅玩空间</div>
                             <div class="link-desc">在线游戏</div>
                         </div>
                     </a>
                     <a href="https://www.yikm.net/" class="link-card" target="_blank">
-                        <div class="link-icon icon-ent">小</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=yikm.net&sz=64" alt="小霸王"></div>
                         <div class="link-info">
                             <div class="link-name">小霸王</div>
                             <div class="link-desc">怀旧游戏</div>
                         </div>
                     </a>
                     <a href="https://zaixianwan.app/" class="link-card" target="_blank">
-                        <div class="link-icon icon-ent">在</div>
+                        <div class="link-icon"><img src="https://www.google.com/s2/favicons?domain=zaixianwan.app&sz=64" alt="在线玩"></div>
                         <div class="link-info">
                             <div class="link-name">在线玩</div>
                             <div class="link-desc">在线游戏</div>
