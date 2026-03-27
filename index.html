@@ -1554,7 +1554,7 @@
             <!-- 欢迎区域 -->
             <div class="welcome-section">
                 <h1 class="welcome-title">下午好，设计者</h1>
-                <p class="welcome-subtitle">今天是 2024年5月20日，您的数字资产已同步。</p>
+                <p class="welcome-subtitle">今天是 <span id="current-date"></span>，您的数字资产已同步。</p>
             </div>
 
             <!-- AI工具 -->
@@ -2446,6 +2446,16 @@
 
         updateClock();
         setInterval(updateClock, 1000);
+
+        // 设置欢迎区域当前日期
+        function updateWelcomeDate() {
+            const now = new Date();
+            const year = now.getFullYear();
+            const month = now.getMonth() + 1;
+            const day = now.getDate();
+            document.getElementById('current-date').textContent = `${year}年${month}月${day}日`;
+        }
+        updateWelcomeDate();
 
         // 极简模式功能
         const modeToggle = document.getElementById('modeToggle');
