@@ -3,846 +3,410 @@
     {
       "category": "AI 工具",
       "links": [
-        {
-          "url": "https://chat.chatbot.app",
-          "name": "ChatGPT",
-          "desc": "OpenAI官方"
-        },
-        {
-          "url": "https://claude.ai",
-          "name": "Claude",
-          "desc": "Anthropic出品"
-        },
-        {
-          "url": "https://gemini.google.com",
-          "name": "Gemini",
-          "desc": "Google AI"
-        },
-        {
-          "url": "https://grok.com",
-          "name": "Grok",
-          "desc": "xAI开发"
-        },
-        {
-          "url": "https://www.perplexity.ai",
-          "name": "Perplexity",
-          "desc": "AI搜索引擎"
-        },
-        {
-          "url": "https://poe.com",
-          "name": "Poe",
-          "desc": "AI聚合平台"
-        },
-        {
-          "url": "https://yiyan.baidu.com",
-          "name": "文心一言",
-          "desc": "百度出品"
-        },
-        {
-          "url": "https://qianwen.aliyun.com",
-          "name": "通义千问",
-          "desc": "阿里云"
-        },
-        {
-          "url": "https://yuanbao.tencent.com",
-          "name": "腾讯元宝",
-          "desc": "腾讯混元"
-        },
-        {
-          "url": "https://kimi.moonshot.cn",
-          "name": "Kimi",
-          "desc": "月之暗面"
-        },
-        {
-          "url": "https://chat.deepseek.com",
-          "name": "DeepSeek",
-          "desc": "深度求索"
-        },
-        {
-          "url": "https://agent.minimaxi.com/",
-          "name": "MiniMax",
-          "desc": "海螺AI"
-        },
-        {
-          "url": "https://platform.minimaxi.com/",
-          "name": "MiniMax 开发平台",
-          "desc": "AI开发平台"
-        },
-        {
-          "url": "https://www.doubao.com/chat/",
-          "name": "豆包",
-          "desc": "字节跳动"
-        },
-        {
-          "url": "https://xinghuo.xfyun.cn",
-          "name": "讯飞星火",
-          "desc": "科大讯飞"
-        },
-        {
-          "url": "https://chatglm.cn",
-          "name": "智谱清言",
-          "desc": "ChatGLM"
-        },
-        {
-          "url": "https://open.bigmodel.cn/",
-          "name": "智谱AI",
-          "desc": "智谱AI开放平台"
-        }
+        {"url": "https://chat.chatbot.app", "name": "ChatGPT", "desc": "OpenAI官方"},
+        {"url": "https://claude.ai", "name": "Claude", "desc": "Anthropic出品"},
+        {"url": "https://gemini.google.com", "name": "Gemini", "desc": "Google AI"},
+        {"url": "https://grok.com", "name": "Grok", "desc": "xAI开发"},
+        {"url": "https://www.perplexity.ai", "name": "Perplexity", "desc": "AI搜索引擎"},
+        {"url": "https://poe.com", "name": "Poe", "desc": "AI聚合平台"},
+        {"url": "https://yiyan.baidu.com", "name": "文心一言", "desc": "百度出品"},
+        {"url": "https://qianwen.aliyun.com", "name": "通义千问", "desc": "阿里云"},
+        {"url": "https://yuanbao.tencent.com", "name": "腾讯元宝", "desc": "腾讯混元"},
+        {"url": "https://kimi.moonshot.cn", "name": "Kimi", "desc": "月之暗面"},
+        {"url": "https://chat.deepseek.com", "name": "DeepSeek", "desc": "深度求索"},
+        {"url": "https://agent.minimaxi.com/", "name": "海螺AI", "desc": "MiniMax"},
+        {"url": "https://www.doubao.com/chat/", "name": "豆包", "desc": "字节跳动"},
+        {"url": "https://xinghuo.xfyun.cn", "name": "讯飞星火", "desc": "科大讯飞"},
+        {"url": "https://chatglm.cn", "name": "智谱清言", "desc": "ChatGLM"},
+        {"url": "https://tongyi.aliyun.com/", "name": "通义万相", "desc": "AI图像生成"},
+        {"url": "https://wanxiang.aliyun.com/", "name": "通义视频", "desc": "AI视频生成"},
+        {"url": "https://huoshan.feishu.cn/", "name": "火山写作", "desc": "字节AI写作"},
+        {"url": "https://tiangong.kuaishou.com/", "name": "天工AI", "desc": "昆仑万维"},
+        {"url": "https://mcp.so/", "name": "MCP.so", "desc": "AI工具聚合"}
       ]
     },
     {
       "category": "AI 编程",
       "links": [
-        {
-          "url": "https://github.com/features/copilot",
-          "name": "GitHub Copilot",
-          "desc": "AI代码补全"
-        },
-        {
-          "url": "https://codeium.com/",
-          "name": "Codeium",
-          "desc": "免费AI编程"
-        },
-        {
-          "url": "https://www.tabnine.com/",
-          "name": "Tabnine",
-          "desc": "AI代码助手"
-        },
-        {
-          "url": "https://aws.amazon.com/codewhisperer/",
-          "name": "CodeWhisperer",
-          "desc": "AWS AI编程"
-        },
-        {
-          "url": "https://v0.dev/",
-          "name": "v0",
-          "desc": "Vercel AI前端"
-        },
-        {
-          "url": "https://replit.com/",
-          "name": "Replit",
-          "desc": "在线IDE+AI"
-        },
-        {
-          "url": "https://windsor.ai/",
-          "name": "Bolt",
-          "desc": "AI快速开发"
-        }
+        {"url": "https://github.com/features/copilot", "name": "GitHub Copilot", "desc": "AI代码补全"},
+        {"url": "https://codeium.com/", "name": "Codeium", "desc": "免费AI编程"},
+        {"url": "https://www.tabnine.com/", "name": "Tabnine", "desc": "AI代码助手"},
+        {"url": "https://aws.amazon.com/codewhisperer/", "name": "CodeWhisperer", "desc": "AWS AI编程"},
+        {"url": "https://v0.dev/", "name": "v0", "desc": "Vercel AI前端"},
+        {"url": "https://replit.com/", "name": "Replit", "desc": "在线IDE+AI"},
+        {"url": "https://bolt.new/", "name": "Bolt.new", "desc": "AI快速开发"},
+        {"url": "https://cursor.com/", "name": "Cursor", "desc": "AI代码编辑器"},
+        {"url": "https://windsurf.ai/", "name": "Windsurf", "desc": "Codeium AI"},
+        {"url": "https://www.codestral.com/", "name": "Codestral", "desc": "Mistral AI编程"},
+        {"url": "https://devin.ai/", "name": "Devin", "desc": "Cognition AI工程师"},
+        {"url": "https://claude.ai/code", "name": "Claude Code", "desc": "Anthropic CLI"},
+        {"url": "https://github.com", "name": "GitHub", "desc": "代码托管平台"},
+        {"url": "https://gitlab.com", "name": "GitLab", "desc": "DevOps平台"},
+        {"url": "https://sourcegraph.com/", "name": "Sourcegraph", "desc": "代码搜索"},
+        {"url": "https://sentry.io/", "name": "Sentry", "desc": "错误追踪"},
+        {"url": "https://vercel.com/", "name": "Vercel", "desc": "前端部署"},
+        {"url": "https://netlify.com/", "name": "Netlify", "desc": "静态部署"}
       ]
     },
     {
       "category": "实用工具",
       "links": [
-        {
-          "url": "https://c.runoob.com/",
-          "name": "菜鸟工具",
-          "desc": "在线工具集"
-        },
-        {
-          "url": "https://tools.pdf24.org/zh/",
-          "name": "PDF24 Tools",
-          "desc": "PDF处理"
-        },
-        {
-          "url": "https://www.67tool.com/",
-          "name": "即时工具",
-          "desc": "工具合集"
-        },
-        {
-          "url": "https://ai.quark.cn/",
-          "name": "夸克",
-          "desc": "AI搜索"
-        },
-        {
-          "url": "https://www.alltoall.net/",
-          "name": "格式转换",
-          "desc": "文件转换"
-        },
-        {
-          "url": "https://tool.mkblog.cn/whiteboard/",
-          "name": "白板",
-          "desc": "在线白板"
-        },
-        {
-          "url": "https://www.processon.com/",
-          "name": "ProcessOn",
-          "desc": "流程图工具"
-        },
-        {
-          "url": "https://app.diagrams.net/",
-          "name": "Draw.io",
-          "desc": "流程图绘制"
-        },
-        {
-          "url": "https://www.remove.bg",
-          "name": "Remove.bg",
-          "desc": "智能抠图"
-        },
-        {
-          "url": "https://www.chatpdf.com",
-          "name": "ChatPDF",
-          "desc": "PDF对话"
-        },
-        {
-          "url": "https://gamma.app",
-          "name": "Gamma",
-          "desc": "AI演示"
-        },
-        {
-          "url": "https://chatexcel.com",
-          "name": "ChatExcel",
-          "desc": "AI表格"
-        }
+        {"url": "https://c.runoob.com/", "name": "菜鸟工具", "desc": "在线工具集"},
+        {"url": "https://tools.pdf24.org/zh/", "name": "PDF24 Tools", "desc": "PDF处理"},
+        {"url": "https://www.67tool.com/", "name": "即时工具", "desc": "工具合集"},
+        {"url": "https://www.alltoall.net/", "name": "格式转换", "desc": "文件转换"},
+        {"url": "https://tool.mkblog.cn/whiteboard/", "name": "白板", "desc": "在线白板"},
+        {"url": "https://www.processon.com/", "name": "ProcessOn", "desc": "流程图工具"},
+        {"url": "https://app.diagrams.net/", "name": "Draw.io", "desc": "流程图绘制"},
+        {"url": "https://www.remove.bg", "name": "Remove.bg", "desc": "智能抠图"},
+        {"url": "https://www.chatpdf.com", "name": "ChatPDF", "desc": "PDF对话"},
+        {"url": "https://gamma.app", "name": "Gamma", "desc": "AI演示文稿"},
+        {"url": "https://chatexcel.com", "name": "ChatExcel", "desc": "AI表格处理"},
+        {"url": "https://www.ilovepdf.com/zh_cn", "name": "iLovePDF", "desc": "PDF工具"},
+        {"url": "https://tinypng.com/", "name": "TinyPNG", "desc": "图片压缩"},
+        {"url": "https://www.iloveimg.com/zh_cn", "name": "iLoveIMG", "desc": "图片处理"},
+        {"url": "https://www.融蜡.cn/", "name": "融蜡", "desc": "在线工具集"},
+        {"url": "https://www.img2go.com/zh/", "name": "Img2Go", "desc": "图片转换"},
+        {"url": "https://cloudconvert.com/", "name": "CloudConvert", "desc": "格式转换"},
+        {"url": "https://ocr.space/", "name": "OCR.space", "desc": "文字识别"},
+        {"url": "https://www.notion.so/", "name": "Notion", "desc": "笔记工具"},
+        {"url": "https://www.loom.com/", "name": "Loom", "desc": "屏幕录制"}
       ]
     },
     {
       "category": "学习资源",
       "links": [
-        {
-          "url": "https://www.zhihu.com/",
-          "name": "知乎",
-          "desc": "知识问答"
-        },
-        {
-          "url": "https://github.com/",
-          "name": "GitHub",
-          "desc": "代码托管"
-        },
-        {
-          "url": "https://www.imooc.com/",
-          "name": "慕课网",
-          "desc": "IT技能"
-        },
-        {
-          "url": "https://time.geekbang.org/",
-          "name": "极客时间",
-          "desc": "技术课程"
-        },
-        {
-          "url": "https://juejin.cn/",
-          "name": "掘金",
-          "desc": "技术社区"
-        },
-        {
-          "url": "https://learnku.com/",
-          "name": "LearnKu",
-          "desc": "开发者社区"
-        },
-        {
-          "url": "https://man.niaoge.com/",
-          "name": "Linux命令",
-          "desc": "命令查询"
-        },
-        {
-          "url": "https://www.runoob.com/",
-          "name": "菜鸟教程",
-          "desc": "编程入门"
-        }
+        {"url": "https://www.zhihu.com/", "name": "知乎", "desc": "知识问答"},
+        {"url": "https://github.com/", "name": "GitHub", "desc": "代码托管"},
+        {"url": "https://www.imooc.com/", "name": "慕课网", "desc": "IT技能学习"},
+        {"url": "https://time.geekbang.org/", "name": "极客时间", "desc": "技术课程"},
+        {"url": "https://juejin.cn/", "name": "掘金", "desc": "技术社区"},
+        {"url": "https://learnku.com/", "name": "LearnKu", "desc": "开发者社区"},
+        {"url": "https://man.niaoge.com/", "name": "Linux命令", "desc": "命令查询"},
+        {"url": "https://www.runoob.com/", "name": "菜鸟教程", "desc": "编程入门"},
+        {"url": "https://developer.mozilla.org/zh-CN/", "name": "MDN", "desc": "Web开发文档"},
+        {"url": "https://www.w3school.com.cn/", "name": "W3School", "desc": "Web教程"},
+        {"url": "https://www.codecademy.com/", "name": "Codecademy", "desc": "编程学习"},
+        {"url": "https://www.udemy.com/", "name": "Udemy", "desc": "在线课程"},
+        {"url": "https://coursera.org/", "name": "Coursera", "desc": "名校课程"},
+        {"url": "https://www.khanacademy.org/", "name": "Khan Academy", "desc": "可汗学院"},
+        {"url": "https://www.edx.org/", "name": "edX", "desc": "MIT哈佛课程"},
+        {"url": "https://openai.com/education/", "name": "ChatGPT学英语", "desc": "AI英语学习"},
+        {"url": "https://www.duolingo.cn/", "name": "多邻国", "desc": "语言学习"},
+        {"url": "https://www.ted.com/", "name": "TED", "desc": "演讲视频"}
       ]
     },
     {
       "category": "视频平台",
       "links": [
-        {
-          "url": "https://v.qq.com",
-          "name": "腾讯视频",
-          "desc": "综合视频"
-        },
-        {
-          "url": "https://www.iqiyi.com",
-          "name": "爱奇艺",
-          "desc": "综合视频"
-        },
-        {
-          "url": "https://www.youku.com",
-          "name": "优酷",
-          "desc": "综合视频"
-        },
-        {
-          "url": "https://www.mgtv.com",
-          "name": "芒果TV",
-          "desc": "综艺视频"
-        },
-        {
-          "url": "https://www.bilibili.com",
-          "name": "哔哩哔哩",
-          "desc": "弹幕视频"
-        },
-        {
-          "url": "https://www.ixigua.com",
-          "name": "西瓜视频",
-          "desc": "中视频"
-        },
-        {
-          "url": "https://www.douyin.com",
-          "name": "抖音",
-          "desc": "短视频"
-        },
-        {
-          "url": "https://www.kuaishou.com",
-          "name": "快手",
-          "desc": "短视频"
-        },
-        {
-          "url": "https://www.youtube.com",
-          "name": "YouTube",
-          "desc": "国际视频"
-        },
-        {
-          "url": "https://www.netflix.com",
-          "name": "Netflix",
-          "desc": "流媒体"
-        }
+        {"url": "https://v.qq.com", "name": "腾讯视频", "desc": "综合视频"},
+        {"url": "https://www.iqiyi.com", "name": "爱奇艺", "desc": "综合视频"},
+        {"url": "https://www.youku.com", "name": "优酷", "desc": "综合视频"},
+        {"url": "https://www.mgtv.com", "name": "芒果TV", "desc": "综艺视频"},
+        {"url": "https://www.bilibili.com", "name": "哔哩哔哩", "desc": "弹幕视频"},
+        {"url": "https://www.ixigua.com", "name": "西瓜视频", "desc": "中视频"},
+        {"url": "https://www.douyin.com", "name": "抖音", "desc": "短视频"},
+        {"url": "https://www.kuaishou.com", "name": "快手", "desc": "短视频"},
+        {"url": "https://www.youtube.com", "name": "YouTube", "desc": "国际视频"},
+        {"url": "https://www.netflix.com", "name": "Netflix", "desc": "流媒体"},
+        {"url": "https://www.disneyplus.com/", "name": "Disney+", "desc": "迪士尼+"},
+        {"url": "https://www.hbo.com/", "name": "HBO Max", "desc": "HBO"},
+        {"url": "https://www.amazon.com/prime-video/", "name": "Prime Video", "desc": "亚马逊视频"},
+        {"url": "https://www.apple.com.cn/tv/", "name": "Apple TV+", "desc": "苹果视频"},
+        {"url": "https://tv.yeshen.com/", "name": "埋堆堆", "desc": "港剧"},
+        {"url": "https://viu.tv/", "name": "Viu", "desc": "东南亚剧"},
+        {"url": "https://www.tubi.tv/zh/", "name": "Tubi", "desc": "免费美剧"}
       ]
     },
     {
       "category": "直播平台",
       "links": [
-        {
-          "url": "https://www.douyu.com",
-          "name": "斗鱼直播",
-          "desc": "游戏直播"
-        },
-        {
-          "url": "https://www.huya.com",
-          "name": "虎牙直播",
-          "desc": "游戏直播"
-        },
-        {
-          "url": "https://live.bilibili.com",
-          "name": "B站直播",
-          "desc": "综合直播"
-        },
-        {
-          "url": "https://www.yy.com",
-          "name": "YY直播",
-          "desc": "娱乐直播"
-        },
-        {
-          "url": "https://www.twitch.tv",
-          "name": "Twitch",
-          "desc": "国际直播"
-        }
+        {"url": "https://www.douyu.com", "name": "斗鱼直播", "desc": "游戏直播"},
+        {"url": "https://www.huya.com", "name": "虎牙直播", "desc": "游戏直播"},
+        {"url": "https://live.bilibili.com", "name": "B站直播", "desc": "综合直播"},
+        {"url": "https://www.yy.com", "name": "YY直播", "desc": "娱乐直播"},
+        {"url": "https://www.twitch.tv", "name": "Twitch", "desc": "国际直播"},
+        {"url": "https://www.kuaishou.com/live", "name": "快手直播", "desc": "短视频直播"},
+        {"url": "https://live.douyin.com", "name": "抖音直播", "desc": "短视频直播"},
+        {"url": "https://www.youtube.com/live", "name": "YouTube直播", "desc": "国际直播"},
+        {"url": "https://www.instagram.com/", "name": "Instagram", "desc": "社交直播"},
+        {"url": "https://twitter.com/i/flow/login", "name": "X Live", "desc": "社交直播"},
+        {"url": "https://www.tiktok.com/live", "name": "TikTok Live", "desc": "国际直播"},
+        {"url": "https://www.pandalive.co.kr/", "name": "Panda TV", "desc": "游戏直播"}
       ]
     },
     {
       "category": "动漫视频",
       "links": [
-        {
-          "url": "http://www.iyinghua.io",
-          "name": "樱花动漫",
-          "desc": "免费动漫"
-        },
-        {
-          "url": "https://www.agedm.org",
-          "name": "AGE动漫",
-          "desc": "资源丰富"
-        },
-        {
-          "url": "https://www.crunchyroll.com",
-          "name": "Crunchyroll",
-          "desc": "正版动漫"
-        },
-        {
-          "url": "https://ani.gamer.com.tw",
-          "name": "巴哈姆特",
-          "desc": "台湾正版"
-        },
-        {
-          "url": "https://www.bilibili.com",
-          "name": "哔哩哔哩",
-          "desc": "二次元圣地"
-        },
-        {
-          "url": "https://www.acfun.cn/",
-          "name": "AcFun",
-          "desc": "国内弹幕鼻祖"
-        },
-        {
-          "url": "https://animeanime.jp/",
-          "name": "Anime Anime",
-          "desc": "日本动漫资讯"
-        },
-        {
-          "url": "https://myanimelist.net/",
-          "name": "MyAnimeList",
-          "desc": "全球动漫数据库"
-        }
+        {"url": "https://www.bilibili.com/anime/", "name": "哔哩哔哩动漫", "desc": "二次元圣地"},
+        {"url": "https://www.acfun.cn/", "name": "AcFun", "desc": "国内弹幕鼻祖"},
+        {"url": "https://animeanime.jp/", "name": "Anime Anime", "desc": "日本动漫资讯"},
+        {"url": "https://myanimelist.net/", "name": "MyAnimeList", "desc": "全球动漫数据库"},
+        {"url": "https://www.crunchyroll.com", "name": "Crunchyroll", "desc": "正版动漫"},
+        {"url": "https://ani.gamer.com.tw", "name": "巴哈姆特", "desc": "台湾动漫"},
+        {"url": "https://9anime.to/", "name": "9Anime", "desc": "在线动漫"},
+        {"url": "https://gogoanime.gg/", "name": "GogoAnime", "desc": "免费动漫"},
+        {"url": "https://anime-pahe.com/", "name": "AnimePahe", "desc": "高清动漫"},
+        {"url": "https://www.animenewsnetwork.com/", "name": "ANN", "desc": "动漫新闻"},
+        {"url": "https://www.funimation.com/", "name": "Funimation", "desc": "正版动漫"},
+        {"url": "https://www.netflix.com/browse/genre/6724", "name": "Netflix动漫", "desc": "流媒体动漫"},
+        {"url": "https://www.anime-planet.com/", "name": "Anime-Planet", "desc": "动漫推荐"},
+        {"url": "https://kitsu.io/", "name": "Kitsu", "desc": "动漫追踪"},
+        {"url": "https://anilist.co/", "name": "AniList", "desc": "动漫数据库"},
+        {"url": "https://www.senpai.moe/", "name": "Senpai", "desc": "动漫资讯"}
       ]
     },
     {
       "category": "小说阅读",
       "links": [
-        {
-          "url": "https://www.qidian.com",
-          "name": "起点中文网",
-          "desc": "男频霸主"
-        },
-        {
-          "url": "https://www.jjwxc.net",
-          "name": "晋江文学城",
-          "desc": "女频霸主"
-        },
-        {
-          "url": "https://fanqienovel.com",
-          "name": "番茄小说",
-          "desc": "免费小说"
-        },
-        {
-          "url": "https://www.qimao.com",
-          "name": "七猫小说",
-          "desc": "免费小说"
-        },
-        {
-          "url": "http://www.zongheng.com",
-          "name": "纵横中文网",
-          "desc": "百度文学"
-        },
-        {
-          "url": "https://weread.qq.com",
-          "name": "微信读书",
-          "desc": "出版书籍"
-        },
-        {
-          "url": "https://read.douban.com",
-          "name": "豆瓣阅读",
-          "desc": "精品出版"
-        },
-        {
-          "url": "https://www.zhangyue.com",
-          "name": "掌阅",
-          "desc": "老牌平台"
-        },
-        {
-          "url": "https://www.ciweimao.com",
-          "name": "刺猬猫",
-          "desc": "二次元"
-        },
-        {
-          "url": "https://www.sfacg.com",
-          "name": "菠萝包轻小说",
-          "desc": "轻小说"
-        },
-        {
-          "url": "https://www.gongzicp.com",
-          "name": "长佩文学",
-          "desc": "纯爱文学"
-        },
-        {
-          "url": "https://zh.z-lib.gd",
-          "name": "ZLibrary",
-          "desc": "电子书库"
-        }
+        {"url": "https://www.qidian.com", "name": "起点中文网", "desc": "男频霸主"},
+        {"url": "https://www.jjwxc.net", "name": "晋江文学城", "desc": "女频霸主"},
+        {"url": "https://fanqienovel.com", "name": "番茄小说", "desc": "免费小说"},
+        {"url": "https://www.qimao.com", "name": "七猫小说", "desc": "免费小说"},
+        {"url": "http://www.zongheng.com", "name": "纵横中文网", "desc": "百度文学"},
+        {"url": "https://weread.qq.com", "name": "微信读书", "desc": "出版书籍"},
+        {"url": "https://read.douban.com", "name": "豆瓣阅读", "desc": "精品出版"},
+        {"url": "https://www.zhangyue.com", "name": "掌阅", "desc": "老牌平台"},
+        {"url": "https://www.ciweimao.com", "name": "刺猬猫", "desc": "二次元小说"},
+        {"url": "https://www.sfacg.com", "name": "菠萝包轻小说", "desc": "轻小说"},
+        {"url": "https://www.gongzicp.com", "name": "长佩文学", "desc": "纯爱文学"},
+        {"url": "https://www.17k.com/", "name": "17K小说网", "desc": "综合小说"},
+        {"url": "https://www.xs8.cn/", "name": "飞卢小说", "desc": "免费小说"},
+        {"url": "https://www.hongxiu.com/", "name": "红袖添香", "desc": "女频小说"},
+        {"url": "https://www.zhihu.com/novel", "name": "知乎小说", "desc": "短篇小说"},
+        {"url": "https://www.wenxuecity.com/", "name": "文学城", "desc": "海外中文"},
+        {"url": "https://www.qidian.com/free", "name": "起点免费", "desc": "免费阅读"}
       ]
     },
     {
-      "category": "有声小说",
+      "category": "有声资源",
       "links": [
-        {
-          "url": "https://www.ximalaya.com",
-          "name": "喜马拉雅",
-          "desc": "有声平台"
-        },
-        {
-          "url": "https://www.lrts.me",
-          "name": "懒人听书",
-          "desc": "有声阅读"
-        },
-        {
-          "url": "https://www.qtfm.cn",
-          "name": "蜻蜓FM",
-          "desc": "广播音频"
-        },
-        {
-          "url": "https://www.tingfanqie.com",
-          "name": "番茄畅听",
-          "desc": "免费听书"
-        },
-        {
-          "url": "https://y.qq.com/",
-          "name": "QQ音乐",
-          "desc": "音乐播客"
-        },
-        {
-          "url": "https://music.163.com/",
-          "name": "网易云音乐",
-          "desc": "音乐播客"
-        },
-        {
-          "url": "https://www.spotify.com/",
-          "name": "Spotify",
-          "desc": "国际音乐"
-        },
-        {
-          "url": "https://www.apple.com.cn/podcasts/",
-          "name": "Apple Podcasts",
-          "desc": "苹果播客"
-        }
+        {"url": "https://www.ximalaya.com", "name": "喜马拉雅", "desc": "有声平台"},
+        {"url": "https://www.lrts.me", "name": "懒人听书", "desc": "有声阅读"},
+        {"url": "https://www.qtfm.cn", "name": "蜻蜓FM", "desc": "广播音频"},
+        {"url": "https://www.tingfanqie.com", "name": "番茄畅听", "desc": "免费听书"},
+        {"url": "https://y.qq.com/", "name": "QQ音乐", "desc": "音乐播客"},
+        {"url": "https://music.163.com/", "name": "网易云音乐", "desc": "音乐播客"},
+        {"url": "https://www.spotify.com/", "name": "Spotify", "desc": "国际音乐"},
+        {"url": "https://www.apple.com.cn/podcasts/", "name": "Apple Podcasts", "desc": "苹果播客"},
+        {"url": "https://www.xiaoyuzhoufm.com/", "name": "小宇宙", "desc": "中文播客"},
+        {"url": "https://www.youtube.com/music", "name": "YouTube Music", "desc": "音乐视频"},
+        {"url": "https://soundcloud.com/", "name": "SoundCloud", "desc": "国际音乐"},
+        {"url": "https://bandcamp.com/", "name": "Bandcamp", "desc": "独立音乐"},
+        {"url": "https://www.deezer.com/", "name": "Deezer", "desc": "国际音乐"},
+        {"url": "https://www.pandora.com/", "name": "Pandora", "desc": "国际音乐"},
+        {"url": "https://music.apple.com/", "name": "Apple Music", "desc": "苹果音乐"},
+        {"url": "https://music.amazon.com/", "name": "Amazon Music", "desc": "亚马逊音乐"}
       ]
     },
     {
       "category": "典藏资源",
       "links": [
-        {
-          "url": "https://www.zdic.net/",
-          "name": "汉典",
-          "desc": "汉字字典"
-        },
-        {
-          "url": "https://www.shidianguji.com/",
-          "name": "识典古籍",
-          "desc": "古籍数字化"
-        },
-        {
-          "url": "https://www.zhonghuadiancang.com/",
-          "name": "中华典藏",
-          "desc": "经典文献"
-        },
-        {
-          "url": "https://ctext.org/zhs",
-          "name": "中华哲学",
-          "desc": "哲学经典"
-        },
-        {
-          "url": "https://www.daorenjia.com/",
-          "name": "道藏",
-          "desc": "道教经典"
-        },
-        {
-          "url": "https://www.fojingzaixian.com/",
-          "name": "佛经",
-          "desc": "佛教经典"
-        },
-        {
-          "url": "https://www.zhishikoo.com/",
-          "name": "知识库",
-          "desc": "知识资源"
-        },
-        {
-          "url": "https://www.jiumodiary.com/",
-          "name": "鸠摩搜书",
-          "desc": "图书搜索"
-        }
+        {"url": "https://www.zdic.net/", "name": "汉典", "desc": "汉字字典"},
+        {"url": "https://www.shidianguji.com/", "name": "识典古籍", "desc": "古籍数字化"},
+        {"url": "https://www.zhonghuadiancang.com/", "name": "中华典藏", "desc": "经典文献"},
+        {"url": "https://ctext.org/zhs", "name": "中华哲学", "desc": "哲学经典"},
+        {"url": "https://www.jiumodiary.com/", "name": "鸠摩搜书", "desc": "图书搜索"},
+        {"url": "https://zh.z-lib.gd", "name": "ZLibrary", "desc": "电子书库"},
+        {"url": "https://bookriot.com/", "name": "Book Riot", "desc": "读书博客"},
+        {"url": "https://www.goodreads.com/", "name": "Goodreads", "desc": "书籍点评"},
+        {"url": "https://www.gutenberg.org/", "name": "古登堡计划", "desc": "公版书"},
+        {"url": "https://www.archive.org/", "name": "互联网档案馆", "desc": "历史存档"},
+        {"url": "https://www.worldhistory.org/", "name": "世界历史", "desc": "历史百科"},
+        {"url": "https://zh.wikipedia.org/", "name": "维基百科", "desc": "百科全书"},
+        {"url": "https://en.wikipedia.org/", "name": "Wikipedia", "desc": "英文百科"},
+        {"url": "https://www.britannica.com/", "name": "大英百科", "desc": "权威百科"},
+        {"url": "https://www.36kr.com/", "name": "36氪", "desc": "科技资讯"},
+        {"url": "https://www.infoq.cn/", "name": "InfoQ", "desc": "技术资讯"}
       ]
     },
     {
       "category": "娱乐休闲",
       "links": [
-        {
-          "url": "https://www.bidianer.com/",
-          "name": "笔点",
-          "desc": "资源导航"
-        },
-        {
-          "url": "https://www.haxishijie.com/",
-          "name": "哈希影视",
-          "desc": "影视资源"
-        },
-        {
-          "url": "https://tv.cctv.com/live/",
-          "name": "CCTV直播",
-          "desc": "电视直播"
-        },
-        {
-          "url": "https://moyu.games/",
-          "name": "摸鱼导航",
-          "desc": "休闲游戏"
-        },
-        {
-          "url": "https://www.qijishow.com/",
-          "name": "奇迹秀",
-          "desc": "设计资源"
-        },
-        {
-          "url": "https://www.wo1wan.com/",
-          "name": "畅玩空间",
-          "desc": "在线游戏"
-        },
-        {
-          "url": "https://www.yikm.net/",
-          "name": "小霸王",
-          "desc": "怀旧游戏"
-        },
-        {
-          "url": "https://zaixianwan.app/",
-          "name": "在线玩",
-          "desc": "在线游戏"
-        }
+        {"url": "https://www.bidianer.com/", "name": "笔点", "desc": "资源导航"},
+        {"url": "https://tv.cctv.com/live/", "name": "CCTV直播", "desc": "电视直播"},
+        {"url": "https://moyu.games/", "name": "摸鱼导航", "desc": "休闲游戏"},
+        {"url": "https://www.qijishow.com/", "name": "奇迹秀", "desc": "设计资源"},
+        {"url": "https://www.yikm.net/", "name": "小霸王", "desc": "怀旧游戏"},
+        {"url": "https://zaixianwan.app/", "name": "在线玩", "desc": "在线游戏"},
+        {"url": "https://www.playpcesor.com/", "name": "痞子查", "desc": "工具导航"},
+        {"url": "https://www.2linghua.com/", "name": "2linghua", "desc": "图标资源"},
+        {"url": "https://www.iplaysoft.com/", "name": "异次元", "desc": "软件推荐"},
+        {"url": "https://www.appinn.com/", "name": "小众软件", "desc": "软件推荐"},
+        {"url": "https://gugres.cn/", "name": "咕咕资源", "desc": "资源导航"},
+        {"url": "https://nice.icu/", "name": "Nice导航", "desc": "资源导航"},
+        {"url": "https://www.dutangbook.com/", "name": "都匀导航", "desc": "资源导航"},
+        {"url": "https://www.pinterest.com/", "name": "Pinterest", "desc": "灵感图片"},
+        {"url": "https://www.duitang.com/", "name": "堆糖", "desc": "图片收藏"},
+        {"url": "https://huaban.com/", "name": "花瓣网", "desc": "设计灵感"}
       ]
     },
     {
       "category": "云服务",
       "links": [
-        {
-          "url": "https://www.aliyun.com/",
-          "name": "阿里云",
-          "desc": "云计算平台"
-        },
-        {
-          "url": "https://cloud.tencent.com/",
-          "name": "腾讯云",
-          "desc": "云服务平台"
-        },
-        {
-          "url": "https://www.huaweicloud.com/",
-          "name": "华为云",
-          "desc": "云计算平台"
-        },
-        {
-          "url": "https://aws.amazon.com/cn/",
-          "name": "AWS",
-          "desc": "亚马逊云"
-        },
-        {
-          "url": "https://azure.microsoft.com/",
-          "name": "Azure",
-          "desc": "微软云"
-        },
-        {
-          "url": "https://cloud.google.com/",
-          "name": "Google Cloud",
-          "desc": "谷歌云"
-        },
-        {
-          "url": "https://www.digitalocean.com/",
-          "name": "DigitalOcean",
-          "desc": "开发者云"
-        },
-        {
-          "url": "https://www.vultr.com/",
-          "name": "Vultr",
-          "desc": "海外云主机"
-        }
+        {"url": "https://www.aliyun.com/", "name": "阿里云", "desc": "云计算平台"},
+        {"url": "https://cloud.tencent.com/", "name": "腾讯云", "desc": "云服务平台"},
+        {"url": "https://www.huaweicloud.com/", "name": "华为云", "desc": "云计算平台"},
+        {"url": "https://aws.amazon.com/cn/", "name": "AWS", "desc": "亚马逊云"},
+        {"url": "https://azure.microsoft.com/", "name": "Azure", "desc": "微软云"},
+        {"url": "https://cloud.google.com/", "name": "Google Cloud", "desc": "谷歌云"},
+        {"url": "https://www.digitalocean.com/", "name": "DigitalOcean", "desc": "开发者云"},
+        {"url": "https://www.vultr.com/", "name": "Vultr", "desc": "海外云主机"},
+        {"url": "https://www.linode.com/", "name": "Linode", "desc": "Akamai云"},
+        {"url": "https://www.heroku.com/", "name": "Heroku", "desc": "应用托管"},
+        {"url": "https://fly.io/", "name": "Fly.io", "desc": "边缘计算"},
+        {"url": "https://supabase.com/", "name": "Supabase", "desc": "开源后端"},
+        {"url": "https://firebase.google.com/", "name": "Firebase", "desc": "谷歌后端"},
+        {"url": "https://www.cloudflare.com/", "name": "Cloudflare", "desc": "CDN安全"},
+        {"url": "https://vercel.com/", "name": "Vercel", "desc": "前端部署"},
+        {"url": "https://netlify.com/", "name": "Netlify", "desc": "静态部署"}
       ]
     },
     {
       "category": "开发文档",
       "links": [
-        {
-          "url": "https://developer.mozilla.org/zh-CN/",
-          "name": "MDN Web Docs",
-          "desc": "Web开发文档"
-        },
-        {
-          "url": "https://docs.python.org/zh-cn/",
-          "name": "Python 文档",
-          "desc": "官方中文文档"
-        },
-        {
-          "url": "https://docs.oracle.com/zh-cn/",
-          "name": "Java 文档",
-          "desc": "Oracle官方"
-        },
-        {
-          "url": "https://nodejs.org/zh-cn/docs/",
-          "name": "Node.js 文档",
-          "desc": "官方中文文档"
-        },
-        {
-          "url": "https://react.dev/",
-          "name": "React",
-          "desc": "官方文档"
-        },
-        {
-          "url": "https://vuejs.org/guide/",
-          "name": "Vue.js",
-          "desc": "官方文档"
-        },
-        {
-          "url": "https://docs.djangoproject.com/zh-hans/",
-          "name": "Django",
-          "desc": "Python框架"
-        },
-        {
-          "url": "https://spring.io/projects/spring-boot",
-          "name": "Spring Boot",
-          "desc": "Java框架"
-        },
-        {
-          "url": "https://docs.docker.com/",
-          "name": "Docker",
-          "desc": "容器化文档"
-        },
-        {
-          "url": "https://kubernetes.io/zh/docs/",
-          "name": "Kubernetes",
-          "desc": "K8s中文文档"
-        },
-        {
-          "url": "https://git-scm.com/book/zh/v2",
-          "name": "Git 文档",
-          "desc": "版本控制"
-        },
-        {
-          "url": "https://www.rust-lang.org/zh-CN/learn",
-          "name": "Rust",
-          "desc": "系统语言"
-        }
+        {"url": "https://developer.mozilla.org/zh-CN/", "name": "MDN Web Docs", "desc": "Web开发文档"},
+        {"url": "https://docs.python.org/zh-cn/", "name": "Python 文档", "desc": "官方中文文档"},
+        {"url": "https://docs.oracle.com/zh-cn/", "name": "Java 文档", "desc": "Oracle官方"},
+        {"url": "https://nodejs.org/zh-cn/docs/", "name": "Node.js 文档", "desc": "官方中文文档"},
+        {"url": "https://react.dev/", "name": "React", "desc": "官方文档"},
+        {"url": "https://vuejs.org/guide/", "name": "Vue.js", "desc": "官方文档"},
+        {"url": "https://angular.io/docs", "name": "Angular", "desc": "官方文档"},
+        {"url": "https://svelte.dev/docs", "name": "Svelte", "desc": "官方文档"},
+        {"url": "https://docs.djangoproject.com/zh-hans/", "name": "Django", "desc": "Python框架"},
+        {"url": "https://spring.io/projects/spring-boot", "name": "Spring Boot", "desc": "Java框架"},
+        {"url": "https://docs.docker.com/", "name": "Docker", "desc": "容器化文档"},
+        {"url": "https://kubernetes.io/zh/docs/", "name": "Kubernetes", "desc": "K8s中文文档"},
+        {"url": "https://git-scm.com/book/zh/v2", "name": "Git 文档", "desc": "版本控制"},
+        {"url": "https://www.rust-lang.org/zh-CN/learn", "name": "Rust", "desc": "系统语言"},
+        {"url": "https://go.dev/doc/", "name": "Go", "desc": "官方文档"},
+        {"url": "https://kotlinlang.org/docs/home.html", "name": "Kotlin", "desc": "官方文档"}
       ]
     },
     {
       "category": "设计师资源",
       "links": [
-        {
-          "url": "https://www.behance.net/",
-          "name": "Behance",
-          "desc": "设计作品集"
-        },
-        {
-          "url": "https://www.dribbble.com/",
-          "name": "Dribbble",
-          "desc": "设计师社区"
-        },
-        {
-          "url": "https://www.pinterest.com/",
-          "name": "Pinterest",
-          "desc": "灵感收藏"
-        },
-        {
-          "url": "https://www.figma.com/",
-          "name": "Figma",
-          "desc": "在线设计工具"
-        },
-        {
-          "url": "https://www.sketch.com/",
-          "name": "Sketch",
-          "desc": "UI设计工具"
-        },
-        {
-          "url": "https://www.adobe.com.cn/products/illustrator.html",
-          "name": "Illustrator",
-          "desc": "矢量图形设计"
-        },
-        {
-          "url": "https://www.photoshop.com.cn/",
-          "name": "Photoshop",
-          "desc": "图像处理"
-        },
-        {
-          "url": "https://www.notion.so/",
-          "name": "Notion",
-          "desc": "笔记与协作"
-        },
-        {
-          "url": "https://excalidraw.com/",
-          "name": "Excalidraw",
-          "desc": "手绘风格图表"
-        },
-        {
-          "url": "https://coolors.co/",
-          "name": "Coolors",
-          "desc": "配色方案"
-        },
-        {
-          "url": "https://fonts.google.com/",
-          "name": "Google Fonts",
-          "desc": "免费字体"
-        },
-        {
-          "url": "https://www.iconfont.cn/",
-          "name": "IconFont",
-          "desc": "阿里巴巴图标库"
-        }
+        {"url": "https://www.behance.net/", "name": "Behance", "desc": "设计作品集"},
+        {"url": "https://www.dribbble.com/", "name": "Dribbble", "desc": "设计师社区"},
+        {"url": "https://www.pinterest.com/", "name": "Pinterest", "desc": "灵感收藏"},
+        {"url": "https://www.figma.com/", "name": "Figma", "desc": "在线设计工具"},
+        {"url": "https://www.sketch.com/", "name": "Sketch", "desc": "UI设计工具"},
+        {"url": "https://www.adobe.com.cn/products/illustrator.html", "name": "Illustrator", "desc": "矢量图形设计"},
+        {"url": "https://www.photoshop.com.cn/", "name": "Photoshop", "desc": "图像处理"},
+        {"url": "https://www.notion.so/", "name": "Notion", "desc": "笔记与协作"},
+        {"url": "https://excalidraw.com/", "name": "Excalidraw", "desc": "手绘风格图表"},
+        {"url": "https://coolors.co/", "name": "Coolors", "desc": "配色方案"},
+        {"url": "https://fonts.google.com/", "name": "Google Fonts", "desc": "免费字体"},
+        {"url": "https://www.iconfont.cn/", "name": "IconFont", "desc": "阿里巴巴图标库"},
+        {"url": "https://fontawesome.com/", "name": "Font Awesome", "desc": "图标字体"},
+        {"url": "https://undraw.co/", "name": "Undraw", "desc": "免费插图"},
+        {"url": "https://www.freepik.com/", "name": "Freepik", "desc": "设计素材"},
+        {"url": "https://pixabay.com/", "name": "Pixabay", "desc": "免费图片"}
       ]
     },
     {
       "category": "协作办公",
       "links": [
-        {
-          "url": "https://docs.qq.com/",
-          "name": "腾讯文档",
-          "desc": "在线文档协作"
-        },
-        {
-          "url": "https://shimo.im/",
-          "name": "石墨文档",
-          "desc": "在线协作文档"
-        },
-        {
-          "url": "https://www.wps.cn/",
-          "name": "金山文档",
-          "desc": "WPS云文档"
-        },
-        {
-          "url": "https://www.feishu.cn/",
-          "name": "飞书",
-          "desc": "字节跳动协作"
-        },
-        {
-          "url": "https://work.weixin.qq.com/",
-          "name": "企业微信",
-          "desc": "企业协作"
-        },
-        {
-          "url": "https://mail.qq.com/",
-          "name": "QQ邮箱",
-          "desc": "邮箱服务"
-        },
-        {
-          "url": "https://mail.google.com/",
-          "name": "Gmail",
-          "desc": "谷歌邮箱"
-        },
-        {
-          "url": "https://calendar.google.com/",
-          "name": "Google Calendar",
-          "desc": "日历日程"
-        }
+        {"url": "https://docs.qq.com/", "name": "腾讯文档", "desc": "在线文档协作"},
+        {"url": "https://shimo.im/", "name": "石墨文档", "desc": "在线协作文档"},
+        {"url": "https://www.wps.cn/", "name": "金山文档", "desc": "WPS云文档"},
+        {"url": "https://www.feishu.cn/", "name": "飞书", "desc": "字节跳动协作"},
+        {"url": "https://work.weixin.qq.com/", "name": "企业微信", "desc": "企业协作"},
+        {"url": "https://mail.qq.com/", "name": "QQ邮箱", "desc": "邮箱服务"},
+        {"url": "https://mail.google.com/", "name": "Gmail", "desc": "谷歌邮箱"},
+        {"url": "https://calendar.google.com/", "name": "Google Calendar", "desc": "日历日程"},
+        {"url": "https://slack.com/", "name": "Slack", "desc": "团队沟通"},
+        {"url": "https://discord.com/", "name": "Discord", "desc": "社区沟通"},
+        {"url": "https://trello.com/", "name": "Trello", "desc": "项目管理"},
+        {"url": "https://asana.com/", "name": "Asana", "desc": "项目管理"},
+        {"url": "https://monday.com/", "name": "Monday", "desc": "项目管理"},
+        {"url": "https://www.notion.so/", "name": "Notion", "desc": "全能协作"},
+        {"url": "https://www.linear.app/", "name": "Linear", "desc": "开发者项目"},
+        {"url": "https://clickup.com/", "name": "ClickUp", "desc": "全能工具"}
       ]
     },
     {
       "category": "新闻资讯",
       "links": [
-        {
-          "url": "https://news.qq.com/",
-          "name": "腾讯新闻",
-          "desc": "综合资讯"
-        },
-        {
-          "url": "https://news.sina.com.cn/",
-          "name": "新浪新闻",
-          "desc": "综合资讯"
-        },
-        {
-          "url": "https://www.thepaper.cn/",
-          "name": "澎湃新闻",
-          "desc": "深度资讯"
-        },
-        {
-          "url": "https://36kr.com/",
-          "name": "36氪",
-          "desc": "科技创业"
-        },
-        {
-          "url": "https://www.ifeng.com/",
-          "name": "凤凰网",
-          "desc": "综合资讯"
-        },
-        {
-          "url": "https://news.163.com/",
-          "name": "网易新闻",
-          "desc": "综合资讯"
-        },
-        {
-          "url": "https://www.huxiu.com/",
-          "name": "虎嗅",
-          "desc": "商业资讯"
-        },
-        {
-          "url": "https://www.zhihu.com/news",
-          "name": "知乎热榜",
-          "desc": "社区热点"
-        },
-        {
-          "url": "https://www.reddit.com/",
-          "name": "Reddit",
-          "desc": "国际社区"
-        },
-        {
-          "url": "https://news.ycombinator.com/",
-          "name": "Hacker News",
-          "desc": "科技新闻"
-        }
+        {"url": "https://news.qq.com/", "name": "腾讯新闻", "desc": "综合资讯"},
+        {"url": "https://news.sina.com.cn/", "name": "新浪新闻", "desc": "综合资讯"},
+        {"url": "https://www.thepaper.cn/", "name": "澎湃新闻", "desc": "深度资讯"},
+        {"url": "https://36kr.com/", "name": "36氪", "desc": "科技创业"},
+        {"url": "https://www.ifeng.com/", "name": "凤凰网", "desc": "综合资讯"},
+        {"url": "https://news.163.com/", "name": "网易新闻", "desc": "综合资讯"},
+        {"url": "https://www.huxiu.com/", "name": "虎嗅", "desc": "商业资讯"},
+        {"url": "https://www.zhihu.com/news", "name": "知乎热榜", "desc": "社区热点"},
+        {"url": "https://www.reddit.com/", "name": "Reddit", "desc": "国际社区"},
+        {"url": "https://news.ycombinator.com/", "name": "Hacker News", "desc": "科技新闻"},
+        {"url": "https://www.bloomberg.com/", "name": "Bloomberg", "desc": "财经资讯"},
+        {"url": "https://www.reuters.com/", "name": "Reuters", "desc": "国际新闻"},
+        {"url": "https://www.bbc.com/zhongwen/simp", "name": "BBC中文", "desc": "国际新闻"},
+        {"url": "https://cn.wsj.com/", "name": "华尔街日报", "desc": "财经新闻"},
+        {"url": "https://techcrunch.com/", "name": "TechCrunch", "desc": "科技媒体"},
+        {"url": "https://www.theverge.com/", "name": "The Verge", "desc": "科技媒体"}
+      ]
+    },
+    {
+      "category": "电商购物",
+      "links": [
+        {"url": "https://www.taobao.com/", "name": "淘宝", "desc": "综合电商"},
+        {"url": "https://www.jd.com/", "name": "京东", "desc": "品质电商"},
+        {"url": "https://www.tmall.com/", "name": "天猫", "desc": "品牌电商"},
+        {"url": "https://www.pinduoduo.com/", "name": "拼多多", "desc": "社交电商"},
+        {"url": "https://www.amazon.cn/", "name": "亚马逊中国", "desc": "跨境电商"},
+        {"url": "https://www.amazon.com/", "name": "Amazon", "desc": "国际电商"},
+        {"url": "https://www.ebay.com/", "name": "eBay", "desc": "国际电商"},
+        {"url": "https://www.aliexpress.com/", "name": "速卖通", "desc": "跨境电商"},
+        {"url": "https://www.xiapibuy.com/", "name": "虾皮", "desc": "东南亚电商"},
+        {"url": "https://shopee.tw/", "name": "Shopee", "desc": "东南亚电商"},
+        {"url": "https://www.rakuten.co.jp/", "name": "乐天", "desc": "日本电商"},
+        {"url": "https://www.zalando.de/", "name": "Zalando", "desc": "欧洲时尚"},
+        {"url": "https://www.apple.com.cn/shop", "name": "Apple Store", "desc": "苹果官网"},
+        {"url": "https://www.mi.com/", "name": "小米商城", "desc": "小米产品"},
+        {"url": "https://www.huawei.com/", "name": "华为商城", "desc": "华为产品"},
+        {"url": "https://www.youzan.com/", "name": "有赞", "desc": "微商城"}
+      ]
+    },
+    {
+      "category": "金融理财",
+      "links": [
+        {"url": "https://www.icbc.com.cn/", "name": "工商银行", "desc": "国有银行"},
+        {"url": "https://www.boc.cn/", "name": "中国银行", "desc": "国有银行"},
+        {"url": "https://www.ccb.com/", "name": "建设银行", "desc": "国有银行"},
+        {"url": "https://www.abchina.com/", "name": "农业银行", "desc": "国有银行"},
+        {"url": "https://www.cmbchina.com/", "name": "招商银行", "desc": "商业银行"},
+        {"url": "https://www.pingan.com/", "name": "平安银行", "desc": "商业银行"},
+        {"url": "https://www.alipay.com/", "name": "支付宝", "desc": "支付理财"},
+        {"url": "https://www.tenpay.com/", "name": "微信支付", "desc": "支付服务"},
+        {"url": "https://www东方财富.com/", "name": "东方财富", "desc": "股票资讯"},
+        {"url": "https://www.xinhuanet.com/fortune/", "name": "新华网财经", "desc": "财经资讯"},
+        {"url": "https://www.securities.com/", "name": "彭博", "desc": "财经资讯"},
+        {"url": "https://finance.yahoo.com/", "name": "Yahoo Finance", "desc": "国际财经"},
+        {"url": "https://www.investopedia.com/", "name": "Investopedia", "desc": "投资百科"},
+        {"url": "https://www.coingecko.com/zh", "name": "CoinGecko", "desc": "加密货币"},
+        {"url": "https://coinmarketcap.com/zh", "name": "CoinMarketCap", "desc": "加密货币"},
+        {"url": "https://www.binance.com/zh", "name": "币安", "desc": "加密交易"}
+      ]
+    },
+    {
+      "category": "游戏平台",
+      "links": [
+        {"url": "https://store.steampowered.com/", "name": "Steam", "desc": "PC游戏平台"},
+        {"url": "https://www.epicgames.com/store/", "name": "Epic Games", "desc": "游戏平台"},
+        {"url": "https://www.gog.com/", "name": "GOG", "desc": " DRM-Free游戏"},
+        {"url": "https://www.origin.com/", "name": "EA Origin", "desc": "EA游戏平台"},
+        {"url": "https://www.ubisoft.com/", "name": "Ubi Store", "desc": "育碧商城"},
+        {"url": "https://www.nintendo.com/", "name": "Nintendo", "desc": "Switch游戏"},
+        {"url": "https://www.playstation.com/", "name": "PlayStation", "desc": "索尼游戏"},
+        {"url": "https://www.xbox.com/", "name": "Xbox", "desc": "微软游戏"},
+        {"url": "https://www.taptap.cn/", "name": "TapTap", "desc": "手游平台"},
+        {"url": "https://www.4399.com/", "name": "4399", "desc": "小游戏平台"},
+        {"url": "https://www.miniclip.com/", "name": "Miniclip", "desc": "休闲游戏"},
+        {"url": "https://www.crazygames.com/", "name": "Crazy Games", "desc": "HTML5游戏"},
+        {"url": "https://poki.cn/", "name": "Poki", "desc": "在线游戏"},
+        {"url": "https://www.kongregate.com/", "name": "Kongregate", "desc": "游戏平台"},
+        {"url": "https://itch.io/", "name": "itch.io", "desc": "独立游戏"},
+        {"url": "https://www.indienova.com/", "name": "Indienova", "desc": "独立游戏"}
       ]
     }
   ]
