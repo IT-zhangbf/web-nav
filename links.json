@@ -1,0 +1,849 @@
+{
+  "categories": [
+    {
+      "category": "AI 工具",
+      "links": [
+        {
+          "url": "https://chat.chatbot.app",
+          "name": "ChatGPT",
+          "desc": "OpenAI官方"
+        },
+        {
+          "url": "https://claude.ai",
+          "name": "Claude",
+          "desc": "Anthropic出品"
+        },
+        {
+          "url": "https://gemini.google.com",
+          "name": "Gemini",
+          "desc": "Google AI"
+        },
+        {
+          "url": "https://grok.com",
+          "name": "Grok",
+          "desc": "xAI开发"
+        },
+        {
+          "url": "https://www.perplexity.ai",
+          "name": "Perplexity",
+          "desc": "AI搜索引擎"
+        },
+        {
+          "url": "https://poe.com",
+          "name": "Poe",
+          "desc": "AI聚合平台"
+        },
+        {
+          "url": "https://yiyan.baidu.com",
+          "name": "文心一言",
+          "desc": "百度出品"
+        },
+        {
+          "url": "https://qianwen.aliyun.com",
+          "name": "通义千问",
+          "desc": "阿里云"
+        },
+        {
+          "url": "https://yuanbao.tencent.com",
+          "name": "腾讯元宝",
+          "desc": "腾讯混元"
+        },
+        {
+          "url": "https://kimi.moonshot.cn",
+          "name": "Kimi",
+          "desc": "月之暗面"
+        },
+        {
+          "url": "https://chat.deepseek.com",
+          "name": "DeepSeek",
+          "desc": "深度求索"
+        },
+        {
+          "url": "https://agent.minimaxi.com/",
+          "name": "MiniMax",
+          "desc": "海螺AI"
+        },
+        {
+          "url": "https://platform.minimaxi.com/",
+          "name": "MiniMax 开发平台",
+          "desc": "AI开发平台"
+        },
+        {
+          "url": "https://www.doubao.com/chat/",
+          "name": "豆包",
+          "desc": "字节跳动"
+        },
+        {
+          "url": "https://xinghuo.xfyun.cn",
+          "name": "讯飞星火",
+          "desc": "科大讯飞"
+        },
+        {
+          "url": "https://chatglm.cn",
+          "name": "智谱清言",
+          "desc": "ChatGLM"
+        },
+        {
+          "url": "https://open.bigmodel.cn/",
+          "name": "智谱AI",
+          "desc": "智谱AI开放平台"
+        }
+      ]
+    },
+    {
+      "category": "AI 编程",
+      "links": [
+        {
+          "url": "https://github.com/features/copilot",
+          "name": "GitHub Copilot",
+          "desc": "AI代码补全"
+        },
+        {
+          "url": "https://codeium.com/",
+          "name": "Codeium",
+          "desc": "免费AI编程"
+        },
+        {
+          "url": "https://www.tabnine.com/",
+          "name": "Tabnine",
+          "desc": "AI代码助手"
+        },
+        {
+          "url": "https://aws.amazon.com/codewhisperer/",
+          "name": "CodeWhisperer",
+          "desc": "AWS AI编程"
+        },
+        {
+          "url": "https://v0.dev/",
+          "name": "v0",
+          "desc": "Vercel AI前端"
+        },
+        {
+          "url": "https://replit.com/",
+          "name": "Replit",
+          "desc": "在线IDE+AI"
+        },
+        {
+          "url": "https://windsor.ai/",
+          "name": "Bolt",
+          "desc": "AI快速开发"
+        }
+      ]
+    },
+    {
+      "category": "实用工具",
+      "links": [
+        {
+          "url": "https://c.runoob.com/",
+          "name": "菜鸟工具",
+          "desc": "在线工具集"
+        },
+        {
+          "url": "https://tools.pdf24.org/zh/",
+          "name": "PDF24 Tools",
+          "desc": "PDF处理"
+        },
+        {
+          "url": "https://www.67tool.com/",
+          "name": "即时工具",
+          "desc": "工具合集"
+        },
+        {
+          "url": "https://ai.quark.cn/",
+          "name": "夸克",
+          "desc": "AI搜索"
+        },
+        {
+          "url": "https://www.alltoall.net/",
+          "name": "格式转换",
+          "desc": "文件转换"
+        },
+        {
+          "url": "https://tool.mkblog.cn/whiteboard/",
+          "name": "白板",
+          "desc": "在线白板"
+        },
+        {
+          "url": "https://www.processon.com/",
+          "name": "ProcessOn",
+          "desc": "流程图工具"
+        },
+        {
+          "url": "https://app.diagrams.net/",
+          "name": "Draw.io",
+          "desc": "流程图绘制"
+        },
+        {
+          "url": "https://www.remove.bg",
+          "name": "Remove.bg",
+          "desc": "智能抠图"
+        },
+        {
+          "url": "https://www.chatpdf.com",
+          "name": "ChatPDF",
+          "desc": "PDF对话"
+        },
+        {
+          "url": "https://gamma.app",
+          "name": "Gamma",
+          "desc": "AI演示"
+        },
+        {
+          "url": "https://chatexcel.com",
+          "name": "ChatExcel",
+          "desc": "AI表格"
+        }
+      ]
+    },
+    {
+      "category": "学习资源",
+      "links": [
+        {
+          "url": "https://www.zhihu.com/",
+          "name": "知乎",
+          "desc": "知识问答"
+        },
+        {
+          "url": "https://github.com/",
+          "name": "GitHub",
+          "desc": "代码托管"
+        },
+        {
+          "url": "https://www.imooc.com/",
+          "name": "慕课网",
+          "desc": "IT技能"
+        },
+        {
+          "url": "https://time.geekbang.org/",
+          "name": "极客时间",
+          "desc": "技术课程"
+        },
+        {
+          "url": "https://juejin.cn/",
+          "name": "掘金",
+          "desc": "技术社区"
+        },
+        {
+          "url": "https://learnku.com/",
+          "name": "LearnKu",
+          "desc": "开发者社区"
+        },
+        {
+          "url": "https://man.niaoge.com/",
+          "name": "Linux命令",
+          "desc": "命令查询"
+        },
+        {
+          "url": "https://www.runoob.com/",
+          "name": "菜鸟教程",
+          "desc": "编程入门"
+        }
+      ]
+    },
+    {
+      "category": "视频平台",
+      "links": [
+        {
+          "url": "https://v.qq.com",
+          "name": "腾讯视频",
+          "desc": "综合视频"
+        },
+        {
+          "url": "https://www.iqiyi.com",
+          "name": "爱奇艺",
+          "desc": "综合视频"
+        },
+        {
+          "url": "https://www.youku.com",
+          "name": "优酷",
+          "desc": "综合视频"
+        },
+        {
+          "url": "https://www.mgtv.com",
+          "name": "芒果TV",
+          "desc": "综艺视频"
+        },
+        {
+          "url": "https://www.bilibili.com",
+          "name": "哔哩哔哩",
+          "desc": "弹幕视频"
+        },
+        {
+          "url": "https://www.ixigua.com",
+          "name": "西瓜视频",
+          "desc": "中视频"
+        },
+        {
+          "url": "https://www.douyin.com",
+          "name": "抖音",
+          "desc": "短视频"
+        },
+        {
+          "url": "https://www.kuaishou.com",
+          "name": "快手",
+          "desc": "短视频"
+        },
+        {
+          "url": "https://www.youtube.com",
+          "name": "YouTube",
+          "desc": "国际视频"
+        },
+        {
+          "url": "https://www.netflix.com",
+          "name": "Netflix",
+          "desc": "流媒体"
+        }
+      ]
+    },
+    {
+      "category": "直播平台",
+      "links": [
+        {
+          "url": "https://www.douyu.com",
+          "name": "斗鱼直播",
+          "desc": "游戏直播"
+        },
+        {
+          "url": "https://www.huya.com",
+          "name": "虎牙直播",
+          "desc": "游戏直播"
+        },
+        {
+          "url": "https://live.bilibili.com",
+          "name": "B站直播",
+          "desc": "综合直播"
+        },
+        {
+          "url": "https://www.yy.com",
+          "name": "YY直播",
+          "desc": "娱乐直播"
+        },
+        {
+          "url": "https://www.twitch.tv",
+          "name": "Twitch",
+          "desc": "国际直播"
+        }
+      ]
+    },
+    {
+      "category": "动漫视频",
+      "links": [
+        {
+          "url": "http://www.iyinghua.io",
+          "name": "樱花动漫",
+          "desc": "免费动漫"
+        },
+        {
+          "url": "https://www.agedm.org",
+          "name": "AGE动漫",
+          "desc": "资源丰富"
+        },
+        {
+          "url": "https://www.crunchyroll.com",
+          "name": "Crunchyroll",
+          "desc": "正版动漫"
+        },
+        {
+          "url": "https://ani.gamer.com.tw",
+          "name": "巴哈姆特",
+          "desc": "台湾正版"
+        },
+        {
+          "url": "https://www.bilibili.com",
+          "name": "哔哩哔哩",
+          "desc": "二次元圣地"
+        },
+        {
+          "url": "https://www.acfun.cn/",
+          "name": "AcFun",
+          "desc": "国内弹幕鼻祖"
+        },
+        {
+          "url": "https://animeanime.jp/",
+          "name": "Anime Anime",
+          "desc": "日本动漫资讯"
+        },
+        {
+          "url": "https://myanimelist.net/",
+          "name": "MyAnimeList",
+          "desc": "全球动漫数据库"
+        }
+      ]
+    },
+    {
+      "category": "小说阅读",
+      "links": [
+        {
+          "url": "https://www.qidian.com",
+          "name": "起点中文网",
+          "desc": "男频霸主"
+        },
+        {
+          "url": "https://www.jjwxc.net",
+          "name": "晋江文学城",
+          "desc": "女频霸主"
+        },
+        {
+          "url": "https://fanqienovel.com",
+          "name": "番茄小说",
+          "desc": "免费小说"
+        },
+        {
+          "url": "https://www.qimao.com",
+          "name": "七猫小说",
+          "desc": "免费小说"
+        },
+        {
+          "url": "http://www.zongheng.com",
+          "name": "纵横中文网",
+          "desc": "百度文学"
+        },
+        {
+          "url": "https://weread.qq.com",
+          "name": "微信读书",
+          "desc": "出版书籍"
+        },
+        {
+          "url": "https://read.douban.com",
+          "name": "豆瓣阅读",
+          "desc": "精品出版"
+        },
+        {
+          "url": "https://www.zhangyue.com",
+          "name": "掌阅",
+          "desc": "老牌平台"
+        },
+        {
+          "url": "https://www.ciweimao.com",
+          "name": "刺猬猫",
+          "desc": "二次元"
+        },
+        {
+          "url": "https://www.sfacg.com",
+          "name": "菠萝包轻小说",
+          "desc": "轻小说"
+        },
+        {
+          "url": "https://www.gongzicp.com",
+          "name": "长佩文学",
+          "desc": "纯爱文学"
+        },
+        {
+          "url": "https://zh.z-lib.gd",
+          "name": "ZLibrary",
+          "desc": "电子书库"
+        }
+      ]
+    },
+    {
+      "category": "有声小说",
+      "links": [
+        {
+          "url": "https://www.ximalaya.com",
+          "name": "喜马拉雅",
+          "desc": "有声平台"
+        },
+        {
+          "url": "https://www.lrts.me",
+          "name": "懒人听书",
+          "desc": "有声阅读"
+        },
+        {
+          "url": "https://www.qtfm.cn",
+          "name": "蜻蜓FM",
+          "desc": "广播音频"
+        },
+        {
+          "url": "https://www.tingfanqie.com",
+          "name": "番茄畅听",
+          "desc": "免费听书"
+        },
+        {
+          "url": "https://y.qq.com/",
+          "name": "QQ音乐",
+          "desc": "音乐播客"
+        },
+        {
+          "url": "https://music.163.com/",
+          "name": "网易云音乐",
+          "desc": "音乐播客"
+        },
+        {
+          "url": "https://www.spotify.com/",
+          "name": "Spotify",
+          "desc": "国际音乐"
+        },
+        {
+          "url": "https://www.apple.com.cn/podcasts/",
+          "name": "Apple Podcasts",
+          "desc": "苹果播客"
+        }
+      ]
+    },
+    {
+      "category": "典藏资源",
+      "links": [
+        {
+          "url": "https://www.zdic.net/",
+          "name": "汉典",
+          "desc": "汉字字典"
+        },
+        {
+          "url": "https://www.shidianguji.com/",
+          "name": "识典古籍",
+          "desc": "古籍数字化"
+        },
+        {
+          "url": "https://www.zhonghuadiancang.com/",
+          "name": "中华典藏",
+          "desc": "经典文献"
+        },
+        {
+          "url": "https://ctext.org/zhs",
+          "name": "中华哲学",
+          "desc": "哲学经典"
+        },
+        {
+          "url": "https://www.daorenjia.com/",
+          "name": "道藏",
+          "desc": "道教经典"
+        },
+        {
+          "url": "https://www.fojingzaixian.com/",
+          "name": "佛经",
+          "desc": "佛教经典"
+        },
+        {
+          "url": "https://www.zhishikoo.com/",
+          "name": "知识库",
+          "desc": "知识资源"
+        },
+        {
+          "url": "https://www.jiumodiary.com/",
+          "name": "鸠摩搜书",
+          "desc": "图书搜索"
+        }
+      ]
+    },
+    {
+      "category": "娱乐休闲",
+      "links": [
+        {
+          "url": "https://www.bidianer.com/",
+          "name": "笔点",
+          "desc": "资源导航"
+        },
+        {
+          "url": "https://www.haxishijie.com/",
+          "name": "哈希影视",
+          "desc": "影视资源"
+        },
+        {
+          "url": "https://tv.cctv.com/live/",
+          "name": "CCTV直播",
+          "desc": "电视直播"
+        },
+        {
+          "url": "https://moyu.games/",
+          "name": "摸鱼导航",
+          "desc": "休闲游戏"
+        },
+        {
+          "url": "https://www.qijishow.com/",
+          "name": "奇迹秀",
+          "desc": "设计资源"
+        },
+        {
+          "url": "https://www.wo1wan.com/",
+          "name": "畅玩空间",
+          "desc": "在线游戏"
+        },
+        {
+          "url": "https://www.yikm.net/",
+          "name": "小霸王",
+          "desc": "怀旧游戏"
+        },
+        {
+          "url": "https://zaixianwan.app/",
+          "name": "在线玩",
+          "desc": "在线游戏"
+        }
+      ]
+    },
+    {
+      "category": "云服务",
+      "links": [
+        {
+          "url": "https://www.aliyun.com/",
+          "name": "阿里云",
+          "desc": "云计算平台"
+        },
+        {
+          "url": "https://cloud.tencent.com/",
+          "name": "腾讯云",
+          "desc": "云服务平台"
+        },
+        {
+          "url": "https://www.huaweicloud.com/",
+          "name": "华为云",
+          "desc": "云计算平台"
+        },
+        {
+          "url": "https://aws.amazon.com/cn/",
+          "name": "AWS",
+          "desc": "亚马逊云"
+        },
+        {
+          "url": "https://azure.microsoft.com/",
+          "name": "Azure",
+          "desc": "微软云"
+        },
+        {
+          "url": "https://cloud.google.com/",
+          "name": "Google Cloud",
+          "desc": "谷歌云"
+        },
+        {
+          "url": "https://www.digitalocean.com/",
+          "name": "DigitalOcean",
+          "desc": "开发者云"
+        },
+        {
+          "url": "https://www.vultr.com/",
+          "name": "Vultr",
+          "desc": "海外云主机"
+        }
+      ]
+    },
+    {
+      "category": "开发文档",
+      "links": [
+        {
+          "url": "https://developer.mozilla.org/zh-CN/",
+          "name": "MDN Web Docs",
+          "desc": "Web开发文档"
+        },
+        {
+          "url": "https://docs.python.org/zh-cn/",
+          "name": "Python 文档",
+          "desc": "官方中文文档"
+        },
+        {
+          "url": "https://docs.oracle.com/zh-cn/",
+          "name": "Java 文档",
+          "desc": "Oracle官方"
+        },
+        {
+          "url": "https://nodejs.org/zh-cn/docs/",
+          "name": "Node.js 文档",
+          "desc": "官方中文文档"
+        },
+        {
+          "url": "https://react.dev/",
+          "name": "React",
+          "desc": "官方文档"
+        },
+        {
+          "url": "https://vuejs.org/guide/",
+          "name": "Vue.js",
+          "desc": "官方文档"
+        },
+        {
+          "url": "https://docs.djangoproject.com/zh-hans/",
+          "name": "Django",
+          "desc": "Python框架"
+        },
+        {
+          "url": "https://spring.io/projects/spring-boot",
+          "name": "Spring Boot",
+          "desc": "Java框架"
+        },
+        {
+          "url": "https://docs.docker.com/",
+          "name": "Docker",
+          "desc": "容器化文档"
+        },
+        {
+          "url": "https://kubernetes.io/zh/docs/",
+          "name": "Kubernetes",
+          "desc": "K8s中文文档"
+        },
+        {
+          "url": "https://git-scm.com/book/zh/v2",
+          "name": "Git 文档",
+          "desc": "版本控制"
+        },
+        {
+          "url": "https://www.rust-lang.org/zh-CN/learn",
+          "name": "Rust",
+          "desc": "系统语言"
+        }
+      ]
+    },
+    {
+      "category": "设计师资源",
+      "links": [
+        {
+          "url": "https://www.behance.net/",
+          "name": "Behance",
+          "desc": "设计作品集"
+        },
+        {
+          "url": "https://www.dribbble.com/",
+          "name": "Dribbble",
+          "desc": "设计师社区"
+        },
+        {
+          "url": "https://www.pinterest.com/",
+          "name": "Pinterest",
+          "desc": "灵感收藏"
+        },
+        {
+          "url": "https://www.figma.com/",
+          "name": "Figma",
+          "desc": "在线设计工具"
+        },
+        {
+          "url": "https://www.sketch.com/",
+          "name": "Sketch",
+          "desc": "UI设计工具"
+        },
+        {
+          "url": "https://www.adobe.com.cn/products/illustrator.html",
+          "name": "Illustrator",
+          "desc": "矢量图形设计"
+        },
+        {
+          "url": "https://www.photoshop.com.cn/",
+          "name": "Photoshop",
+          "desc": "图像处理"
+        },
+        {
+          "url": "https://www.notion.so/",
+          "name": "Notion",
+          "desc": "笔记与协作"
+        },
+        {
+          "url": "https://excalidraw.com/",
+          "name": "Excalidraw",
+          "desc": "手绘风格图表"
+        },
+        {
+          "url": "https://coolors.co/",
+          "name": "Coolors",
+          "desc": "配色方案"
+        },
+        {
+          "url": "https://fonts.google.com/",
+          "name": "Google Fonts",
+          "desc": "免费字体"
+        },
+        {
+          "url": "https://www.iconfont.cn/",
+          "name": "IconFont",
+          "desc": "阿里巴巴图标库"
+        }
+      ]
+    },
+    {
+      "category": "协作办公",
+      "links": [
+        {
+          "url": "https://docs.qq.com/",
+          "name": "腾讯文档",
+          "desc": "在线文档协作"
+        },
+        {
+          "url": "https://shimo.im/",
+          "name": "石墨文档",
+          "desc": "在线协作文档"
+        },
+        {
+          "url": "https://www.wps.cn/",
+          "name": "金山文档",
+          "desc": "WPS云文档"
+        },
+        {
+          "url": "https://www.feishu.cn/",
+          "name": "飞书",
+          "desc": "字节跳动协作"
+        },
+        {
+          "url": "https://work.weixin.qq.com/",
+          "name": "企业微信",
+          "desc": "企业协作"
+        },
+        {
+          "url": "https://mail.qq.com/",
+          "name": "QQ邮箱",
+          "desc": "邮箱服务"
+        },
+        {
+          "url": "https://mail.google.com/",
+          "name": "Gmail",
+          "desc": "谷歌邮箱"
+        },
+        {
+          "url": "https://calendar.google.com/",
+          "name": "Google Calendar",
+          "desc": "日历日程"
+        }
+      ]
+    },
+    {
+      "category": "新闻资讯",
+      "links": [
+        {
+          "url": "https://news.qq.com/",
+          "name": "腾讯新闻",
+          "desc": "综合资讯"
+        },
+        {
+          "url": "https://news.sina.com.cn/",
+          "name": "新浪新闻",
+          "desc": "综合资讯"
+        },
+        {
+          "url": "https://www.thepaper.cn/",
+          "name": "澎湃新闻",
+          "desc": "深度资讯"
+        },
+        {
+          "url": "https://36kr.com/",
+          "name": "36氪",
+          "desc": "科技创业"
+        },
+        {
+          "url": "https://www.ifeng.com/",
+          "name": "凤凰网",
+          "desc": "综合资讯"
+        },
+        {
+          "url": "https://news.163.com/",
+          "name": "网易新闻",
+          "desc": "综合资讯"
+        },
+        {
+          "url": "https://www.huxiu.com/",
+          "name": "虎嗅",
+          "desc": "商业资讯"
+        },
+        {
+          "url": "https://www.zhihu.com/news",
+          "name": "知乎热榜",
+          "desc": "社区热点"
+        },
+        {
+          "url": "https://www.reddit.com/",
+          "name": "Reddit",
+          "desc": "国际社区"
+        },
+        {
+          "url": "https://news.ycombinator.com/",
+          "name": "Hacker News",
+          "desc": "科技新闻"
+        }
+      ]
+    }
+  ]
+}
