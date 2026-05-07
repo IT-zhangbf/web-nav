@@ -1354,7 +1354,7 @@ function renderContent(categories) {
       const domain = link.url.match(/:\/\/([^/]+)/)?.[1] || '';
       return `<a class="link-card" href="${link.url}" target="_blank" rel="noopener" style="animation:fadeInUp 0.3s backwards;animation-delay:${li * 0.03}s">
         <div class="link-icon">
-          <img src="icons/${domain}.png" loading="lazy" onerror="this.parentElement.innerHTML='🔗'" alt="">
+          <img src="icons/${domain}.png" loading="lazy" onerror="this.src='https://www.google.com/s2/favicons?domain=${domain}&sz=64';this.onerror=function(){this.parentElement.innerHTML='🔗'}" alt="">
         </div>
         <div class="link-info">
           <div class="link-name">${link.name}</div>
