@@ -1,0 +1,356 @@
+[
+  {
+    "name": "万相",
+    "url": "https://wanx.alibaba.com",
+    "category": "AI 工具",
+    "msg": "✗ 连接失败: [Errno 11001] getaddrinfo failed"
+  },
+  {
+    "name": "天工AI",
+    "url": "https://tiangong.kuaishou.com/",
+    "category": "AI 工具",
+    "msg": "✗ 连接失败: [Errno 11001] getaddrinfo failed"
+  },
+  {
+    "name": "橙篇",
+    "url": "https://chat.oaier.com",
+    "category": "AI 工具",
+    "msg": "✗ 连接失败: [Errno 11001] getaddrinfo failed"
+  },
+  {
+    "name": "跃问",
+    "url": "https://yuewen.cn",
+    "category": "AI 工具",
+    "msg": "✗ HTTP错误: 403"
+  },
+  {
+    "name": "DALL-E 3",
+    "url": "https://openai.com/dall-e-3",
+    "category": "AI 工具",
+    "msg": "✗ HTTP错误: 403"
+  },
+  {
+    "name": "ChatGPT",
+    "url": "https://chat.openai.com",
+    "category": "AI 工具",
+    "msg": "✗ HTTP错误: 403"
+  },
+  {
+    "name": "Grok",
+    "url": "https://grok.com",
+    "category": "AI 工具",
+    "msg": "✗ HTTP错误: 403"
+  },
+  {
+    "name": "Ideogram",
+    "url": "https://ideogram.ai",
+    "category": "AI 工具",
+    "msg": "✗ HTTP错误: 403"
+  },
+  {
+    "name": "Gamma",
+    "url": "https://gamma.app",
+    "category": "AI 工具",
+    "msg": "✗ HTTP错误: 403"
+  },
+  {
+    "name": "Leonardo AI",
+    "url": "https://leonardo.ai",
+    "category": "AI 工具",
+    "msg": "✗ HTTP错误: 403"
+  },
+  {
+    "name": "Midjourney",
+    "url": "https://midjourney.com",
+    "category": "AI 工具",
+    "msg": "✗ HTTP错误: 403"
+  },
+  {
+    "name": "Perplexity",
+    "url": "https://www.perplexity.ai",
+    "category": "AI 工具",
+    "msg": "✗ HTTP错误: 403"
+  },
+  {
+    "name": "Sora",
+    "url": "https://openai.com/sora",
+    "category": "AI 工具",
+    "msg": "✗ HTTP错误: 403"
+  },
+  {
+    "name": "Poe",
+    "url": "https://poe.com",
+    "category": "AI 工具",
+    "msg": "✗ HTTP错误: 403"
+  },
+  {
+    "name": "Udio",
+    "url": "https://udio.com",
+    "category": "AI 工具",
+    "msg": "✗ HTTP错误: 429"
+  },
+  {
+    "name": "融蜡",
+    "url": "https://www.融蜡.cn/",
+    "category": "实用工具",
+    "msg": "✗ 错误: 'latin-1' codec can't encode characters in positio"
+  },
+  {
+    "name": "Gamma",
+    "url": "https://gamma.app",
+    "category": "实用工具",
+    "msg": "✗ HTTP错误: 403"
+  },
+  {
+    "name": "Udemy",
+    "url": "https://www.udemy.com/",
+    "category": "学习资源",
+    "msg": "✗ HTTP错误: 403"
+  },
+  {
+    "name": "ChatGPT学英语",
+    "url": "https://openai.com/education/",
+    "category": "学习资源",
+    "msg": "✗ HTTP错误: 403"
+  },
+  {
+    "name": "Prime Video",
+    "url": "https://www.amazon.com/prime-video/",
+    "category": "视频平台",
+    "msg": "✗ HTTP错误: 503"
+  },
+  {
+    "name": "巴哈姆特",
+    "url": "https://ani.gamer.com.tw",
+    "category": "动漫视频",
+    "msg": "✗ HTTP错误: 403"
+  },
+  {
+    "name": "AnimePahe",
+    "url": "https://anime-pahe.com/",
+    "category": "动漫视频",
+    "msg": "✗ HTTP错误: 521"
+  },
+  {
+    "name": "番茄畅听",
+    "url": "https://www.tingfanqie.com",
+    "category": "有声资源",
+    "msg": "✗ 连接失败: [Errno 11001] getaddrinfo failed"
+  },
+  {
+    "name": "Spotify",
+    "url": "https://www.spotify.com/",
+    "category": "有声资源",
+    "msg": "✗ HTTP错误: 404"
+  },
+  {
+    "name": "17K小说网",
+    "url": "https://www.17k.com/",
+    "category": "小说阅读",
+    "msg": "✗ HTTP错误: 405"
+  },
+  {
+    "name": "快影",
+    "url": "https://www.kuaishou.com/kuaishou",
+    "category": "AI 工具",
+    "msg": "✗ 连接超时"
+  },
+  {
+    "name": "百川大模型",
+    "url": "https://cloud.baichuan-ai.com/",
+    "category": "AI 工具",
+    "msg": "✗ 连接超时"
+  },
+  {
+    "name": "维基百科",
+    "url": "https://zh.wikipedia.org/",
+    "category": "典藏资源",
+    "msg": "✗ HTTP错误: 403"
+  },
+  {
+    "name": "Wikipedia",
+    "url": "https://en.wikipedia.org/",
+    "category": "典藏资源",
+    "msg": "✗ HTTP错误: 403"
+  },
+  {
+    "name": "ZLibrary",
+    "url": "https://zh.z-lib.gd",
+    "category": "典藏资源",
+    "msg": "✗ HTTP错误: 503"
+  },
+  {
+    "name": "2linghua",
+    "url": "https://www.2linghua.com/",
+    "category": "娱乐休闲",
+    "msg": "✗ 连接失败: [Errno 11001] getaddrinfo failed"
+  },
+  {
+    "name": "Nice导航",
+    "url": "https://nice.icu/",
+    "category": "娱乐休闲",
+    "msg": "✗ 连接失败: [Errno 11001] getaddrinfo failed"
+  },
+  {
+    "name": "咕咕资源",
+    "url": "https://gugres.cn/",
+    "category": "娱乐休闲",
+    "msg": "✗ 连接失败: [Errno 11001] getaddrinfo failed"
+  },
+  {
+    "name": "都匀导航",
+    "url": "https://www.dutangbook.com/",
+    "category": "娱乐休闲",
+    "msg": "✗ 连接失败: [Errno 11001] getaddrinfo failed"
+  },
+  {
+    "name": "Linode",
+    "url": "https://www.linode.com/",
+    "category": "云服务",
+    "msg": "✗ HTTP错误: 403"
+  },
+  {
+    "name": "格式转换",
+    "url": "https://www.alltoall.net/",
+    "category": "实用工具",
+    "msg": "✗ 错误: The read operation timed out"
+  },
+  {
+    "name": "Illustrator",
+    "url": "https://www.adobe.com.cn/products/illustrator.html",
+    "category": "设计师资源",
+    "msg": "✗ 连接失败: [Errno 11001] getaddrinfo failed"
+  },
+  {
+    "name": "Coolors",
+    "url": "https://coolors.co/",
+    "category": "设计师资源",
+    "msg": "✗ HTTP错误: 403"
+  },
+  {
+    "name": "Pixabay",
+    "url": "https://pixabay.com/",
+    "category": "设计师资源",
+    "msg": "✗ HTTP错误: 403"
+  },
+  {
+    "name": "Photoshop",
+    "url": "https://www.photoshop.com.cn/",
+    "category": "设计师资源",
+    "msg": "✗ 连接失败: [SSL] record layer failure (_ssl.c:1010)"
+  },
+  {
+    "name": "金山文档",
+    "url": "https://www.wps.cn/",
+    "category": "协作办公",
+    "msg": "✗ 连接失败: [WinError 10054] 远程主机强迫关闭了一个现有的连接。"
+  },
+  {
+    "name": "AcFun",
+    "url": "https://www.acfun.cn/",
+    "category": "动漫视频",
+    "msg": "✗ 错误: The read operation timed out"
+  },
+  {
+    "name": "澎湃新闻",
+    "url": "https://www.thepaper.cn/",
+    "category": "新闻资讯",
+    "msg": "✗ HTTP错误: 403"
+  },
+  {
+    "name": "Reddit",
+    "url": "https://www.reddit.com/",
+    "category": "新闻资讯",
+    "msg": "✗ HTTP错误: 403"
+  },
+  {
+    "name": "Freepik",
+    "url": "https://www.freepik.com/",
+    "category": "设计师资源",
+    "msg": "✗ HTTP错误: 403"
+  },
+  {
+    "name": "Reuters",
+    "url": "https://www.reuters.com/",
+    "category": "新闻资讯",
+    "msg": "✗ HTTP错误: 401"
+  },
+  {
+    "name": "华尔街日报",
+    "url": "https://cn.wsj.com/",
+    "category": "新闻资讯",
+    "msg": "✗ HTTP错误: 401"
+  },
+  {
+    "name": "虾皮",
+    "url": "https://www.xiapibuy.com/",
+    "category": "电商购物",
+    "msg": "✗ 连接失败: [Errno 11001] getaddrinfo failed"
+  },
+  {
+    "name": "长佩文学",
+    "url": "https://www.gongzicp.com",
+    "category": "小说阅读",
+    "msg": "✗ 连接超时"
+  },
+  {
+    "name": "东方财富",
+    "url": "https://www东方财富.com/",
+    "category": "金融理财",
+    "msg": "✗ 错误: 'latin-1' codec can't encode characters in positio"
+  },
+  {
+    "name": "建设银行",
+    "url": "https://www.ccb.com/",
+    "category": "金融理财",
+    "msg": "✗ 连接失败: [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe"
+  },
+  {
+    "name": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/",
+    "category": "金融理财",
+    "msg": "✗ HTTP错误: 429"
+  },
+  {
+    "name": "Investopedia",
+    "url": "https://www.investopedia.com/",
+    "category": "金融理财",
+    "msg": "✗ HTTP错误: 403"
+  },
+  {
+    "name": "TapTap",
+    "url": "https://www.taptap.cn/",
+    "category": "游戏平台",
+    "msg": "✗ HTTP错误: 405"
+  },
+  {
+    "name": "Epic Games",
+    "url": "https://www.epicgames.com/store/",
+    "category": "游戏平台",
+    "msg": "✗ HTTP错误: 403"
+  },
+  {
+    "name": "Azure",
+    "url": "https://azure.microsoft.com/",
+    "category": "云服务",
+    "msg": "✗ 错误: The read operation timed out"
+  },
+  {
+    "name": "乐天",
+    "url": "https://www.rakuten.co.jp/",
+    "category": "电商购物",
+    "msg": "✗ 错误: The read operation timed out"
+  },
+  {
+    "name": "Bloomberg",
+    "url": "https://www.bloomberg.com/",
+    "category": "新闻资讯",
+    "msg": "✗ 错误: The read operation timed out"
+  },
+  {
+    "name": "Zalando",
+    "url": "https://www.zalando.de/",
+    "category": "电商购物",
+    "msg": "✗ 错误: The read operation timed out"
+  }
+]
