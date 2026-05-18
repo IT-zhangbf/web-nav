@@ -469,11 +469,6 @@
           "desc": "文字识别"
         },
         {
-          "url": "https://www.notion.so/",
-          "name": "Notion",
-          "desc": "笔记工具"
-        },
-        {
           "url": "https://www.loom.com/",
           "name": "Loom",
           "desc": "屏幕录制"
@@ -1374,11 +1369,6 @@
           "desc": "图像处理"
         },
         {
-          "url": "https://www.notion.so/",
-          "name": "Notion",
-          "desc": "笔记与协作"
-        },
-        {
           "url": "https://excalidraw.com/",
           "name": "Excalidraw",
           "desc": "手绘风格图表"
@@ -1487,11 +1477,6 @@
           "url": "https://monday.com/",
           "name": "Monday",
           "desc": "项目管理"
-        },
-        {
-          "url": "https://www.notion.so/",
-          "name": "Notion",
-          "desc": "全能协作"
         },
         {
           "url": "https://www.linear.app/",
