@@ -477,6 +477,11 @@
           "url": "https://www.loom.com/",
           "name": "Loom",
           "desc": "屏幕录制"
+        },
+        {
+          "url": "https://jumpshare.com/",
+          "name": "Jumpshare",
+          "desc": "视频分享工具"
         }
       ]
     },
