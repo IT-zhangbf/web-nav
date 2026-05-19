@@ -1,27 +1,21 @@
 [
   {
-    "name": "万相",
-    "url": "https://wanx.alibaba.com",
+    "name": "跃问",
+    "url": "https://yuewen.cn",
     "category": "AI 工具",
-    "msg": "✗ 连接失败: [Errno 11001] getaddrinfo failed"
+    "msg": "✗ HTTP错误: 403"
+  },
+  {
+    "name": "百川大模型",
+    "url": "https://cloud.baichuan-ai.com/",
+    "category": "AI 工具",
+    "msg": "✗ 连接失败: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred i"
   },
   {
     "name": "天工AI",
     "url": "https://tiangong.kuaishou.com/",
     "category": "AI 工具",
-    "msg": "✗ 连接失败: [Errno 11001] getaddrinfo failed"
-  },
-  {
-    "name": "橙篇",
-    "url": "https://chat.oaier.com",
-    "category": "AI 工具",
-    "msg": "✗ 连接失败: [Errno 11001] getaddrinfo failed"
-  },
-  {
-    "name": "跃问",
-    "url": "https://yuewen.cn",
-    "category": "AI 工具",
-    "msg": "✗ HTTP错误: 403"
+    "msg": "✗ 连接失败: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred i"
   },
   {
     "name": "DALL-E 3",
@@ -30,8 +24,14 @@
     "msg": "✗ HTTP错误: 403"
   },
   {
-    "name": "ChatGPT",
-    "url": "https://chat.openai.com",
+    "name": "Claude",
+    "url": "https://claude.ai",
+    "category": "AI 工具",
+    "msg": "✗ HTTP错误: 403"
+  },
+  {
+    "name": "Gamma",
+    "url": "https://gamma.app",
     "category": "AI 工具",
     "msg": "✗ HTTP错误: 403"
   },
@@ -48,12 +48,6 @@
     "msg": "✗ HTTP错误: 403"
   },
   {
-    "name": "Gamma",
-    "url": "https://gamma.app",
-    "category": "AI 工具",
-    "msg": "✗ HTTP错误: 403"
-  },
-  {
     "name": "Leonardo AI",
     "url": "https://leonardo.ai",
     "category": "AI 工具",
@@ -62,6 +56,12 @@
   {
     "name": "Midjourney",
     "url": "https://midjourney.com",
+    "category": "AI 工具",
+    "msg": "✗ HTTP错误: 403"
+  },
+  {
+    "name": "ChatGPT",
+    "url": "https://chat.openai.com",
     "category": "AI 工具",
     "msg": "✗ HTTP错误: 403"
   },
@@ -84,10 +84,10 @@
     "msg": "✗ HTTP错误: 403"
   },
   {
-    "name": "Udio",
-    "url": "https://udio.com",
-    "category": "AI 工具",
-    "msg": "✗ HTTP错误: 429"
+    "name": "Claude Code",
+    "url": "https://claude.ai/code",
+    "category": "AI 编程",
+    "msg": "✗ HTTP错误: 403"
   },
   {
     "name": "融蜡",
@@ -102,6 +102,18 @@
     "msg": "✗ HTTP错误: 403"
   },
   {
+    "name": "Prime Video",
+    "url": "https://www.amazon.com/prime-video/",
+    "category": "视频平台",
+    "msg": "✗ HTTP错误: 404"
+  },
+  {
+    "name": "埋堆堆",
+    "url": "https://tv.yeshen.com/",
+    "category": "视频平台",
+    "msg": "✗ HTTP错误: 567"
+  },
+  {
     "name": "Udemy",
     "url": "https://www.udemy.com/",
     "category": "学习资源",
@@ -114,62 +126,38 @@
     "msg": "✗ HTTP错误: 403"
   },
   {
-    "name": "Prime Video",
-    "url": "https://www.amazon.com/prime-video/",
+    "name": "HBO Max",
+    "url": "https://www.hbo.com/",
     "category": "视频平台",
-    "msg": "✗ HTTP错误: 503"
+    "msg": "✗ 连接失败: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred i"
   },
   {
-    "name": "巴哈姆特",
-    "url": "https://ani.gamer.com.tw",
+    "name": "Crunchyroll",
+    "url": "https://www.crunchyroll.com",
     "category": "动漫视频",
     "msg": "✗ HTTP错误: 403"
   },
   {
-    "name": "AnimePahe",
-    "url": "https://anime-pahe.com/",
+    "name": "Anime-Planet",
+    "url": "https://www.anime-planet.com/",
     "category": "动漫视频",
-    "msg": "✗ HTTP错误: 521"
+    "msg": "✗ HTTP错误: 403"
   },
   {
     "name": "番茄畅听",
     "url": "https://www.tingfanqie.com",
     "category": "有声资源",
-    "msg": "✗ 连接失败: [Errno 11001] getaddrinfo failed"
+    "msg": "✗ 连接失败: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred i"
   },
   {
-    "name": "Spotify",
-    "url": "https://www.spotify.com/",
-    "category": "有声资源",
-    "msg": "✗ HTTP错误: 404"
-  },
-  {
-    "name": "17K小说网",
-    "url": "https://www.17k.com/",
-    "category": "小说阅读",
-    "msg": "✗ HTTP错误: 405"
-  },
-  {
-    "name": "快影",
-    "url": "https://www.kuaishou.com/kuaishou",
-    "category": "AI 工具",
-    "msg": "✗ 连接超时"
-  },
-  {
-    "name": "百川大模型",
-    "url": "https://cloud.baichuan-ai.com/",
-    "category": "AI 工具",
-    "msg": "✗ 连接超时"
-  },
-  {
-    "name": "维基百科",
-    "url": "https://zh.wikipedia.org/",
-    "category": "典藏资源",
+    "name": "Funimation",
+    "url": "https://www.funimation.com/",
+    "category": "动漫视频",
     "msg": "✗ HTTP错误: 403"
   },
   {
-    "name": "Wikipedia",
-    "url": "https://en.wikipedia.org/",
+    "name": "中华哲学",
+    "url": "https://ctext.org/zhs",
     "category": "典藏资源",
     "msg": "✗ HTTP错误: 403"
   },
@@ -180,100 +168,58 @@
     "msg": "✗ HTTP错误: 503"
   },
   {
-    "name": "2linghua",
-    "url": "https://www.2linghua.com/",
-    "category": "娱乐休闲",
-    "msg": "✗ 连接失败: [Errno 11001] getaddrinfo failed"
+    "name": "AnimePahe",
+    "url": "https://anime-pahe.com/",
+    "category": "动漫视频",
+    "msg": "✗ 错误: The read operation timed out"
   },
   {
-    "name": "Nice导航",
-    "url": "https://nice.icu/",
-    "category": "娱乐休闲",
-    "msg": "✗ 连接失败: [Errno 11001] getaddrinfo failed"
+    "name": "古登堡计划",
+    "url": "https://www.gutenberg.org/",
+    "category": "典藏资源",
+    "msg": "✗ 连接超时"
   },
   {
     "name": "咕咕资源",
     "url": "https://gugres.cn/",
     "category": "娱乐休闲",
-    "msg": "✗ 连接失败: [Errno 11001] getaddrinfo failed"
+    "msg": "✗ 连接失败: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred i"
+  },
+  {
+    "name": "2linghua",
+    "url": "https://www.2linghua.com/",
+    "category": "娱乐休闲",
+    "msg": "✗ 连接失败: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred i"
+  },
+  {
+    "name": "Nice导航",
+    "url": "https://nice.icu/",
+    "category": "娱乐休闲",
+    "msg": "✗ 连接失败: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred i"
   },
   {
     "name": "都匀导航",
     "url": "https://www.dutangbook.com/",
     "category": "娱乐休闲",
-    "msg": "✗ 连接失败: [Errno 11001] getaddrinfo failed"
+    "msg": "✗ 连接失败: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred i"
   },
   {
-    "name": "Linode",
-    "url": "https://www.linode.com/",
+    "name": "Azure",
+    "url": "https://azure.microsoft.com/",
     "category": "云服务",
-    "msg": "✗ HTTP错误: 403"
-  },
-  {
-    "name": "格式转换",
-    "url": "https://www.alltoall.net/",
-    "category": "实用工具",
-    "msg": "✗ 错误: The read operation timed out"
+    "msg": "✗ 连接失败: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred i"
   },
   {
     "name": "Illustrator",
     "url": "https://www.adobe.com.cn/products/illustrator.html",
     "category": "设计师资源",
-    "msg": "✗ 连接失败: [Errno 11001] getaddrinfo failed"
-  },
-  {
-    "name": "Coolors",
-    "url": "https://coolors.co/",
-    "category": "设计师资源",
-    "msg": "✗ HTTP错误: 403"
-  },
-  {
-    "name": "Pixabay",
-    "url": "https://pixabay.com/",
-    "category": "设计师资源",
-    "msg": "✗ HTTP错误: 403"
+    "msg": "✗ 连接失败: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred i"
   },
   {
     "name": "Photoshop",
     "url": "https://www.photoshop.com.cn/",
     "category": "设计师资源",
-    "msg": "✗ 连接失败: [SSL] record layer failure (_ssl.c:1010)"
-  },
-  {
-    "name": "金山文档",
-    "url": "https://www.wps.cn/",
-    "category": "协作办公",
-    "msg": "✗ 连接失败: [WinError 10054] 远程主机强迫关闭了一个现有的连接。"
-  },
-  {
-    "name": "AcFun",
-    "url": "https://www.acfun.cn/",
-    "category": "动漫视频",
-    "msg": "✗ 错误: The read operation timed out"
-  },
-  {
-    "name": "澎湃新闻",
-    "url": "https://www.thepaper.cn/",
-    "category": "新闻资讯",
-    "msg": "✗ HTTP错误: 403"
-  },
-  {
-    "name": "Reddit",
-    "url": "https://www.reddit.com/",
-    "category": "新闻资讯",
-    "msg": "✗ HTTP错误: 403"
-  },
-  {
-    "name": "Freepik",
-    "url": "https://www.freepik.com/",
-    "category": "设计师资源",
-    "msg": "✗ HTTP错误: 403"
-  },
-  {
-    "name": "Reuters",
-    "url": "https://www.reuters.com/",
-    "category": "新闻资讯",
-    "msg": "✗ HTTP错误: 401"
+    "msg": "✗ 连接超时"
   },
   {
     "name": "华尔街日报",
@@ -282,22 +228,10 @@
     "msg": "✗ HTTP错误: 401"
   },
   {
-    "name": "虾皮",
-    "url": "https://www.xiapibuy.com/",
-    "category": "电商购物",
-    "msg": "✗ 连接失败: [Errno 11001] getaddrinfo failed"
-  },
-  {
-    "name": "长佩文学",
-    "url": "https://www.gongzicp.com",
-    "category": "小说阅读",
-    "msg": "✗ 连接超时"
-  },
-  {
-    "name": "东方财富",
-    "url": "https://www东方财富.com/",
-    "category": "金融理财",
-    "msg": "✗ 错误: 'latin-1' codec can't encode characters in positio"
+    "name": "Pixabay",
+    "url": "https://pixabay.com/",
+    "category": "设计师资源",
+    "msg": "✗ HTTP错误: 403"
   },
   {
     "name": "建设银行",
@@ -306,22 +240,16 @@
     "msg": "✗ 连接失败: [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe"
   },
   {
-    "name": "Yahoo Finance",
-    "url": "https://finance.yahoo.com/",
+    "name": "东方财富",
+    "url": "https://www东方财富.com/",
     "category": "金融理财",
-    "msg": "✗ HTTP错误: 429"
+    "msg": "✗ 错误: 'latin-1' codec can't encode characters in positio"
   },
   {
-    "name": "Investopedia",
-    "url": "https://www.investopedia.com/",
-    "category": "金融理财",
-    "msg": "✗ HTTP错误: 403"
-  },
-  {
-    "name": "TapTap",
-    "url": "https://www.taptap.cn/",
-    "category": "游戏平台",
-    "msg": "✗ HTTP错误: 405"
+    "name": "Reuters",
+    "url": "https://www.reuters.com/",
+    "category": "新闻资讯",
+    "msg": "✗ HTTP错误: 401"
   },
   {
     "name": "Epic Games",
@@ -330,27 +258,27 @@
     "msg": "✗ HTTP错误: 403"
   },
   {
-    "name": "Azure",
-    "url": "https://azure.microsoft.com/",
-    "category": "云服务",
-    "msg": "✗ 错误: The read operation timed out"
-  },
-  {
-    "name": "乐天",
-    "url": "https://www.rakuten.co.jp/",
+    "name": "虾皮",
+    "url": "https://www.xiapibuy.com/",
     "category": "电商购物",
-    "msg": "✗ 错误: The read operation timed out"
+    "msg": "✗ 连接失败: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred i"
   },
   {
-    "name": "Bloomberg",
-    "url": "https://www.bloomberg.com/",
-    "category": "新闻资讯",
-    "msg": "✗ 错误: The read operation timed out"
-  },
-  {
-    "name": "Zalando",
-    "url": "https://www.zalando.de/",
+    "name": "亚马逊中国",
+    "url": "https://www.amazon.cn/",
     "category": "电商购物",
-    "msg": "✗ 错误: The read operation timed out"
+    "msg": "✗ 连接超时"
+  },
+  {
+    "name": "Investopedia",
+    "url": "https://www.investopedia.com/",
+    "category": "金融理财",
+    "msg": "✗ HTTP错误: 402"
+  },
+  {
+    "name": "Poki",
+    "url": "https://poki.cn/",
+    "category": "游戏平台",
+    "msg": "✗ 连接超时"
   }
 ]

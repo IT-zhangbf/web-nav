@@ -1554,10 +1554,11 @@ function changeCal(delta) {
 
 // ==================== 分类与链接 ====================
 const categoryIcons = {
-  'AI 工具': '🤖', '代码助手': '💻', '实用工具': '🔧', '学习资源': '📚',
+  'AI 工具': '🤖', 'AI 编程': '💻', '实用工具': '🔧', '学习资源': '📚',
   '视频平台': '🎬', '直播平台': '📺', '动漫视频': '🎨', '小说阅读': '📖',
   '有声小说': '🎧', '典藏资源': '💎', '娱乐休闲': '🎮', '云服务': '☁️',
-  '电商购物': '🛒'
+  '开发文档': '📄', '设计师资源': '🎨', '协作办公': '👥', '新闻资讯': '📰',
+  '电商购物': '🛒', '金融理财': '💰', '游戏平台': '🎮'
 };
 
 const domainIconMap = {
@@ -1626,7 +1627,7 @@ function renderContent(categories) {
       const iconName = domainIconMap[domain] || domain;
       return `<a class="link-card" href="${link.url}" target="_blank" rel="noopener" style="animation:fadeInUp 0.3s backwards;animation-delay:${li * 0.03}s">
         <div class="link-icon">
-          <img src="icons/${iconName}.svg" loading="lazy" onerror="this.onerror=null;this.src='icons/${iconName}.png';this.onerror=function(){this.src='https://www.google.com/s2/favicons?domain=${domain}&sz=64';this.onerror=function(){this.parentElement.innerHTML='🔗'}}}" alt="">
+          <img src="icons/${iconName}.png" loading="lazy" onerror="this.src='https://www.google.com/s2/favicons?domain=${domain}&sz=64';this.onerror=function(){this.parentElement.innerHTML='🔗'}" alt="">
         </div>
         <div class="link-info">
           <div class="link-name">${link.name}</div>
