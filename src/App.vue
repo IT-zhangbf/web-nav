@@ -42,7 +42,7 @@
 </template>
 
 <script setup>
-import { ref, computed, onMounted, provide } from 'vue'
+import { ref, onMounted, onUnmounted, provide, watch } from 'vue'
 import { useTheme } from './composables/useTheme'
 import { useLinks } from './composables/useLinks'
 import { useWallpaper } from './composables/useWallpaper'
@@ -87,6 +87,10 @@ function loadSimpleMode() {
   }
 }
 
+watch(simpleMode, (value) => {
+  document.body.classList.toggle('simple-mode', value)
+}, { immediate: true })
+
 onMounted(async () => {
   initTheme()
   loadSimpleMode()
@@ -99,6 +103,10 @@ onMounted(async () => {
     // trigger calendar re-render via event
     window.dispatchEvent(new CustomEvent('holidays-updated'))
   }
+})
+
+onUnmounted(() => {
+  document.body.classList.remove('simple-mode')
 })
 </script>
 

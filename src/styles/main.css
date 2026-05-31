@@ -277,7 +277,8 @@ body.has-wallpaper .top-bar {
 }
 
 body.simple-mode .side-panel,
-body.simple-mode .main-content-area,
+body.simple-mode .app-layout,
+body.simple-mode .main-content,
 body.simple-mode .footer {
   display: none;
 }

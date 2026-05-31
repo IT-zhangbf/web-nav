@@ -18,7 +18,7 @@
     </div>
     <div v-if="selected" class="cal-detail">
       <div class="cal-detail-date">{{ selected.year }}年{{ selected.month }}月{{ selected.day }}日 星期{{ weekdays[selected.dow] }}</div>
-      <div v-if="selected.lunar" class="cal-detail-lunar">{{ selected.lunar.yearName }} {{ selected.lunar.month }}月{{ selected.lunar.day }}</div>
+      <div v-if="selected.lunar" class="cal-detail-lunar">{{ selected.lunar.yearName }} {{ selected.lunar.month }}{{ selected.lunar.day }}</div>
       <span class="cal-detail-holiday">{{ selected.holidayText }}</span>
     </div>
     <div v-else class="cal-detail-today">{{ todayLunarText }}</div>
@@ -48,29 +48,39 @@
 </template>
 
 <script setup>
-import { ref, computed, onMounted, onUnmounted, reactive } from 'vue'
-import { getLunarDate, getHoliday, getWorkday, WEEKDAYS, fetchHolidays } from '../utils/calendar'
+import { ref, computed, onMounted, onUnmounted } from 'vue'
+import { getLunarDate, getHoliday, getWorkday, WEEKDAYS } from '../utils/calendar'
 
-const today = new Date()
-const calYear = ref(today.getFullYear())
-const calMonth = ref(today.getMonth())
+const currentDate = ref(new Date())
+const calYear = ref(currentDate.value.getFullYear())
+const calMonth = ref(currentDate.value.getMonth())
 const selected = ref(null)
 const showPicker = ref(false)
-const pickerYear = ref(today.getFullYear())
+const pickerYear = ref(currentDate.value.getFullYear())
 const weekdays = WEEKDAYS
+const holidayVersion = ref(0)
+let todayTimer = null
+
+function formatDateKey(date) {
+  return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2,'0')}-${String(date.getDate()).padStart(2,'0')}`
+}
+
+function refreshToday() {
+  currentDate.value = new Date()
+}
 
 const todayStr = computed(() => {
-  const d = new Date()
-  return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`
+  return formatDateKey(currentDate.value)
 })
 
 const todayLunarText = computed(() => {
-  const d = new Date()
+  const d = currentDate.value
   const lunar = getLunarDate(d.getFullYear(), d.getMonth() + 1, d.getDate())
-  return lunar ? `${lunar.yearName} ${lunar.month}月${lunar.day}` : ''
+  return lunar ? `${lunar.yearName} ${lunar.month}${lunar.day}` : ''
 })
 
 const todayHolidayText = computed(() => {
+  holidayVersion.value
   const h = getHoliday(todayStr.value)
   if (h) return `🎉 ${h}`
   const w = getWorkday(todayStr.value)
@@ -79,6 +89,7 @@ const todayHolidayText = computed(() => {
 })
 
 const days = computed(() => {
+  holidayVersion.value
   const y = calYear.value, m = calMonth.value
   const first = new Date(y, m, 1).getDay()
   const daysInMonth = new Date(y, m + 1, 0).getDate()
@@ -132,11 +143,27 @@ function selectDay(day) {
   selected.value = { year: day.year, month: day.month, day: day.day, dow: day.dow, lunar, holidayText }
 }
 
+function selectDate(date) {
+  const year = date.getFullYear()
+  const month = date.getMonth() + 1
+  const day = date.getDate()
+  const fullDate = formatDateKey(date)
+  const lunar = getLunarDate(year, month, day)
+  const h = getHoliday(fullDate)
+  const w = getWorkday(fullDate)
+  let holidayText = '无'
+  if (h) holidayText = `🎉 ${h}`
+  else if (w) holidayText = `⚠️ ${w}`
+  selected.value = { year, month, day, dow: date.getDay(), lunar, holidayText }
+}
+
 function goToToday() {
-  const d = new Date()
+  refreshToday()
+  const d = currentDate.value
   calYear.value = d.getFullYear()
   calMonth.value = d.getMonth()
-  selected.value = null
+  pickerYear.value = d.getFullYear()
+  selectDate(d)
   showPicker.value = false
 }
 
@@ -148,16 +175,21 @@ function setYearMonth(year, month) {
 }
 
 function onHolidaysUpdate() {
-  // force re-render by triggering reactivity
-  calYear.value = calYear.value
+  holidayVersion.value++
 }
 
 onMounted(() => {
   window.addEventListener('holidays-updated', onHolidaysUpdate)
+  window.addEventListener('focus', refreshToday)
+  document.addEventListener('visibilitychange', refreshToday)
+  todayTimer = setInterval(refreshToday, 60000)
 })
 
 onUnmounted(() => {
   window.removeEventListener('holidays-updated', onHolidaysUpdate)
+  window.removeEventListener('focus', refreshToday)
+  document.removeEventListener('visibilitychange', refreshToday)
+  if (todayTimer) clearInterval(todayTimer)
 })
 </script>
 

@@ -70,15 +70,17 @@ onUnmounted(() => {
 <style scoped>
 .simple-overlay {
   position: fixed;
-  top: 38.2%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 50;
+  inset: 0;
+  z-index: 1000;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   text-align: center;
   gap: 0.4rem;
+  min-height: 100vh;
+  padding: 8vh 1.25rem 18vh;
+  background: var(--gradient-bg);
   animation: simpleFadeIn 0.6s ease;
 }
 
@@ -168,11 +170,9 @@ onUnmounted(() => {
 @keyframes simpleFadeIn {
   from {
     opacity: 0;
-    transform: translate(-50%, -35%);
   }
   to {
     opacity: 1;
-    transform: translate(-50%, -50%);
   }
 }
 </style>
