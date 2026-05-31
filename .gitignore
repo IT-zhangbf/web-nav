@@ -7,3 +7,6 @@ skills-lock.json
 .uploads
 broken_links.json
 result.txt
+.writerHelper
+node_modules
+dist
