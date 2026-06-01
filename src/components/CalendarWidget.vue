@@ -137,10 +137,10 @@ function selectDay(day) {
   const lunar = getLunarDate(day.year, day.month, day.day)
   const h = day.holiday || getHoliday(day.fullDate)
   const w = day.workday || getWorkday(day.fullDate)
-  let holidayText = '无'
-  if (h) holidayText = `🎉 ${h}`
-  else if (w) holidayText = `⚠️ ${w}`
-  selected.value = { year: day.year, month: day.month, day: day.day, dow: day.dow, lunar, holidayText }
+      let holidayText = ''
+      if (h) holidayText = `🎉 ${h}`
+      else if (w) holidayText = `⚠️ ${w}`
+      selected.value = { year: day.year, month: day.month, day: day.day, dow: day.dow, lunar, holidayText }
 }
 
 function selectDate(date) {
@@ -151,7 +151,7 @@ function selectDate(date) {
   const lunar = getLunarDate(year, month, day)
   const h = getHoliday(fullDate)
   const w = getWorkday(fullDate)
-  let holidayText = '无'
+  let holidayText = ''
   if (h) holidayText = `🎉 ${h}`
   else if (w) holidayText = `⚠️ ${w}`
   selected.value = { year, month, day, dow: date.getDay(), lunar, holidayText }
