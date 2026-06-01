@@ -1,6 +1,6 @@
 <template>
-  <div class="simple-overlay" @click.self="$emit('close')">
-    <div class="simple-time">{{ time }}</div>
+  <div class="simple-overlay">
+    <div class="simple-time" @click="$emit('close')">{{ time }}</div>
     <div class="simple-date">{{ dateStr }}</div>
     <div class="simple-search-wrapper" @click.stop>
       <div class="simple-search-box">
