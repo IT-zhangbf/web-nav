@@ -157,6 +157,11 @@
           "url": "https://jumpshare.com/",
           "name": "Jumpshare",
           "desc": "视频分享工具"
+        },
+        {
+          "url": "https://audiocut.io/zh-CN",
+          "name": "AudioCut",
+          "desc": "音频剪辑工具"
         }
       ]
     },
