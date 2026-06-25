@@ -62,6 +62,11 @@
           "url": "https://grok.com",
           "name": "Grok",
           "desc": "xAI开发 实时信息"
+        },
+        {
+          "url": "https://music.douyin.com/studio",
+          "name": "妙响",
+          "desc": "抖音 AI音乐创作"
         }
       ]
     },
