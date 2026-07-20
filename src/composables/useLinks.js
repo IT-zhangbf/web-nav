@@ -23,7 +23,7 @@ export function useLinks() {
     loading.value = true
     error.value = null
     try {
-      const res = await fetch('./links.json', { cache: 'reload' })
+      const res = await fetch(`./links.json?v=${__APP_VERSION__}`, { cache: 'no-store' })
       const data = await res.json()
       allData.value = data.categories
       const savedOrder = localStorage.getItem('categoryOrder')
