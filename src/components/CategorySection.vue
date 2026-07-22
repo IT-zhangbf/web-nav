@@ -43,8 +43,8 @@
 </template>
 
 <script setup>
-import { ref, computed } from 'vue'
-import { useLinks } from '../composables/useLinks'
+import { computed, ref } from 'vue'
+import { getCategoryIcon, getDomain, getIconName } from '../utils/icons'
 
 const props = defineProps({
   category: { type: Object, required: true },
@@ -52,26 +52,12 @@ const props = defineProps({
 })
 
 const emit = defineEmits(['move'])
-const { getDomain } = useLinks()
 
 const isDragging = ref(false)
-const icon = computed(() => {
-  const icons = {
-    'AI 工具': '🤖', '代码助手': '💻', '实用工具': '🔧', '学习资源': '📚',
-    '视频平台': '🎬', '直播平台': '📺', '动漫视频': '🎨', '小说阅读': '📖',
-    '有声资源': '🎧', '典藏资源': '💎', '娱乐休闲': '🎮', '云服务': '☁️',
-    '电商购物': '🛒'
-  }
-  return icons[props.category.category] || '📁'
-})
+const icon = computed(() => getCategoryIcon(props.category.category))
 
 function iconUrl(url) {
-  const domain = getDomain(url)
-  const map = {
-    'www.融蜡.cn': 'www__rongla_cn',
-    'www东方财富.com': 'www__eastmoney_com'
-  }
-  return `./icons/${map[domain] || domain}.png`
+  return `./icons/${getIconName(url)}.png`
 }
 
 function onIconError(e, url) {

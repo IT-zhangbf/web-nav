@@ -1,16 +1,5 @@
 import { ref } from 'vue'
-
-const categoryIcons = {
-  'AI 工具': '🤖', '代码助手': '💻', '实用工具': '🔧', '学习资源': '📚',
-  '视频平台': '🎬', '直播平台': '📺', '动漫视频': '🎨', '小说阅读': '📖',
-  '有声资源': '🎧', '典藏资源': '💎', '娱乐休闲': '🎮', '云服务': '☁️',
-  '电商购物': '🛒'
-}
-
-const domainIconMap = {
-  'www.融蜡.cn': 'www__rongla_cn',
-  'www东方财富.com': 'www__eastmoney_com'
-}
+import { getCategoryIcon, getDomain, getIconName } from '../utils/icons'
 
 const allData = ref([])
 const currentCategory = ref('all')
@@ -78,19 +67,6 @@ export function useLinks() {
     allData.value.splice(toIndex, 0, item)
     saveCategoryOrder()
     applyFilter()
-  }
-
-  function getDomain(url) {
-    return url.match(/:\/\/([^/]+)/)?.[1] || ''
-  }
-
-  function getIconName(url) {
-    const domain = getDomain(url)
-    return domainIconMap[domain] || domain
-  }
-
-  function getCategoryIcon(category) {
-    return categoryIcons[category] || '📁'
   }
 
   return {

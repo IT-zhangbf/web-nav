@@ -10,3 +10,5 @@ result.txt
 .writerHelper
 node_modules
 dist
+.reasonix
+reasonix.toml

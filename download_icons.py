@@ -8,8 +8,8 @@ import urllib.error
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 # 配置
-ICON_DIR = "icons"
-LINKS_FILE = "links.json"
+ICON_DIR = os.path.join("public", "icons")
+LINKS_FILE = os.path.join("public", "links.json")
 TIMEOUT = 10
 
 def get_domain(url):
