@@ -442,6 +442,16 @@
           "url": "https://tstdmc.com/",
           "name": "MC分享小站",
           "desc": "怀旧同人游戏"
+        },
+        {
+          "url": "https://fcpic.nesbbs.com/index.html",
+          "name": "FC图库",
+          "desc": "红白机游戏资源"
+        },
+        {
+          "url": "https://github.com/TASEmulators/fceux/releases",
+          "name": "FCEUX模拟器",
+          "desc": "FC模拟器下载"
         }
       ]
     },
